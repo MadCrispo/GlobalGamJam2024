@@ -12,8 +12,9 @@ public class CharacterControllerInput : MonoBehaviour
     public float gravitymultiplier=1f;
     float vel = 0f;
 
-    [SerializeField]
-    private GameObject camera;
+    private void Awake()
+    {
+    }
     private void Start()
     {
         // Initialize input manager and character controller
@@ -56,8 +57,8 @@ public class CharacterControllerInput : MonoBehaviour
         Vector3 moveDirection = cameraForward * currentMoveDir.y + cameraRight * currentMoveDir.x;
         moveDirection.Normalize();
         **/
-        Vector3 forward = Vector3.ProjectOnPlane(camera.transform.forward, Vector3.up);
-        Vector3 moveDirection = forward* moveDir.y ;
+        Vector3 forward = Vector3.ProjectOnPlane(Camera.main.transform.forward, Vector3.up);
+        Vector3 moveDirection = forward* currentMoveDir.y ;
 
         // Rotate the player towards the movement direction
         if (moveDirection != Vector3.zero)
