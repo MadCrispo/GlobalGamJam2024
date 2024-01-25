@@ -5,54 +5,60 @@ using UnityEngine;
 
 public class VisionHandler : MonoBehaviour
 {
-    public Enemy me;
-    private bool hasSeen = false;
-    private bool recentLostSight = false;
+    [SerializeField]
+    private Enemy me;
+    public bool hasSeen = false;
+    public bool recentLostSight = false;
+    private GameObject spottedGameObject= null;
 
-    private void Start()
-    {
-        me = GetComponentInParent<Enemy>();
-    }
 
     private void OnTriggerEnter(Collider other)
     {
+        spottedGameObject = other.gameObject;
         if (recentLostSight)
         {
-            setChaseToStart(other);
+            setChaseToStart(spottedGameObject);
         }
         else
         {
-            StartCoroutine(WaitForSpot(other));
+            me.agent.isStopped = true;
+            
+            StartCoroutine(WaitForSpot(spottedGameObject));
         }
         
        
     }
 
-    IEnumerator WaitForSpot(Collider c)
+    IEnumerator WaitForSpot(GameObject c)
     {
         yield return new WaitForSeconds(me.secondToStartChase);
-        setChaseToStart(c);
-       
+        if (c.GetComponentInParent<PlayerMovement>())
+        {
+            setChaseToStart(c);
 
+        }
     }
 
-    public void setChaseToStart(Collider c)
+    public void setChaseToStart(GameObject c)
     {
-        if (c.GetComponent<PlayerMovement>())
-        {
+        
+            Debug.Log("Spotted player");
             me.setPlayerTransform(c.transform);
+            me.agent.isStopped = false;
             hasSeen = true;
             recentLostSight = false;
+            me.agent.gameObject.transform.forward = c.transform.position;
             this.StopAllCoroutines();
-        }
       
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.GetComponent<PlayerMovement>())
+        Debug.Log("Resuming path");
+        if (other.GetComponentInParent<PlayerMovement>())
         {
             recentLostSight = true;
+            me.agent.isStopped = false;
             StartCoroutine(WaitAlertPeriod());
             StartCoroutine(LostSightTimer());
         }
