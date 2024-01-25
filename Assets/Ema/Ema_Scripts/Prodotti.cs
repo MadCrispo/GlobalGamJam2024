@@ -8,9 +8,9 @@ public class Prodotti : MonoBehaviour
     public int number;
     public bool cheese;
     public bool bread;
-    
-    
 
+
+    public Products product;
 
     void Start()
     {
@@ -26,30 +26,30 @@ public class Prodotti : MonoBehaviour
         if (other.CompareTag("Player"))
         {
            
-            if (bread == true)
-            {
-               
-                if (InventoryItems.bread == 0)
-                {
+            //if (bread == true)
+            //{
+            //   
+            //    if (InventoryItems.bread == 0)
+            //    {
+            //        DisplayIcons();
+            //    }
+            //    InventoryItems.bread++;
+            //    Destroy(gameObject);
+            //}
+            //else if (cheese == true)
+            //{
+            //    if (InventoryItems.cheese == 0)
+            //    {
+            //    }
+            //    InventoryItems.cheese++;
+            //    Destroy(gameObject);
+            //}
+            //else
+            //{
+            //    DisplayIcons();
+            //    Destroy(gameObject);
+            //}
                     DisplayIcons();
-                }
-                InventoryItems.bread++;
-                Destroy(gameObject);
-            }
-            else if (cheese == true)
-            {
-                if (InventoryItems.cheese == 0)
-                {
-                    DisplayIcons();
-                }
-                InventoryItems.cheese++;
-                Destroy(gameObject);
-            }
-            else
-            {
-                DisplayIcons();
-                Destroy(gameObject);
-            }
             
         }
        

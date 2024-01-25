@@ -85,15 +85,13 @@ public class PlayerMovement : MonoBehaviour
     {
         if (verticalInput != 0)
         {
-            forward += verticalInput*accel * Time.deltaTime;
+            forward += verticalInput * accel * Time.deltaTime;
             forward = Mathf.Min(forward, moveSpeed);
         }
-        else
-        {
-            forward += decel * Time.deltaTime;
-            forward = Mathf.Max(forward, 0);
-        }
-      
+
+        forward += decel * Time.deltaTime;
+        forward = Mathf.Max(forward, 0);
+
         // calculate movement direction
         moveDirection = orientation.forward + orientation.right * horizontalInput;
 
@@ -101,7 +99,7 @@ public class PlayerMovement : MonoBehaviour
         if (grounded)
         {
             // rb.velocity = moveDirection * forward;
-            rb.AddForce(moveDirection.normalized * forward *10f, ForceMode.Force);
+            rb.AddForce(moveDirection.normalized * forward * 10f, ForceMode.Force);
         }
         text_speed.SetText("Speed: " + rb.velocity.magnitude);
         // in air
@@ -114,12 +112,12 @@ public class PlayerMovement : MonoBehaviour
         Vector3 flatVel = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
 
         // limit velocity if needed
-        if(flatVel.magnitude > moveSpeed)
+        if (flatVel.magnitude > moveSpeed)
         {
             Vector3 limitedVel = flatVel.normalized * moveSpeed;
             rb.velocity = new Vector3(limitedVel.x, rb.velocity.y, limitedVel.z);
         }
-        if(text_speed!=null)
+        if (text_speed != null)
             text_speed.SetText("Speed: " + flatVel.magnitude);
         //Debug.Log("Speed: " + flatVel.magnitude);
     }
