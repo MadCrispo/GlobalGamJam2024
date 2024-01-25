@@ -11,7 +11,7 @@ public class MovePlayer : MonoBehaviour
     //public float rotacionVelocidad = 100f;
     public float horizontalInput;
     public float forwardlInput;
-
+    
 
     private float powerStrenght = 15f;
 
@@ -39,11 +39,13 @@ public class MovePlayer : MonoBehaviour
     {
         if (other.CompareTag("PowerUp"))
         {
+            
             hasPowerUp = true;
             powerUpIndicatore.gameObject.SetActive(true);
             Destroy(other.gameObject);
             StartCoroutine(PowerUpCountdown());
-            
+           
+
         }
     }
 

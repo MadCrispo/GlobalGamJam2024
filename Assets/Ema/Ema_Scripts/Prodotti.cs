@@ -6,9 +6,12 @@ using UnityEngine.UI;
 public class Prodotti : MonoBehaviour
 {
     public int number;
+    public bool cheese;
+    public bool bread;
     
     
-    
+
+
     void Start()
     {
         
@@ -22,10 +25,39 @@ public class Prodotti : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            InventoryItems.newIcon = number;
-            InventoryItems.iconUpdate = true;
-            Destroy(gameObject);
-            Debug.Log("Tocco il prodotto");
+           
+            if (bread == true)
+            {
+               
+                if (InventoryItems.bread == 0)
+                {
+                    DisplayIcons();
+                }
+                InventoryItems.bread++;
+                Destroy(gameObject);
+            }
+            else if (cheese == true)
+            {
+                if (InventoryItems.cheese == 0)
+                {
+                    DisplayIcons();
+                }
+                InventoryItems.cheese++;
+                Destroy(gameObject);
+            }
+            else
+            {
+                DisplayIcons();
+                Destroy(gameObject);
+            }
+            
         }
+       
+
+    }
+    void DisplayIcons()
+    {
+        InventoryItems.newIcon = number;
+        InventoryItems.iconUpdate = true;
     }
 }

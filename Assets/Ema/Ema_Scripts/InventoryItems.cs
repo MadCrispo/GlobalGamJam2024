@@ -11,9 +11,15 @@ public class InventoryItems : MonoBehaviour
     public static bool iconUpdate = false;
     public Sprite[] icons;
     public int max;
+    public static int bread = 0;
+    public static int cheese= 0;
     void Start()
     {
         max = empitySlots.Length;
+
+        bread = 0;
+        cheese = 0;
+
     }
 
     // Update is called once per frame
