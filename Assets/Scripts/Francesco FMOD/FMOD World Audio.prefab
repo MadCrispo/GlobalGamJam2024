@@ -61,7 +61,7 @@ MonoBehaviour:
   AllowNonRigidbodyDoppler: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 0.5
+  OverrideMinDistance: 9
   OverrideMaxDistance: 50
 --- !u!1 &5948627425899467827
 GameObject:
@@ -163,12 +163,12 @@ MonoBehaviour:
     Path: event:/SFXs/Ambiente/Comunicazioni(3D)
   Event: 
   PlayEvent: 0
-  StopEvent: 0
+  StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
   AllowNonRigidbodyDoppler: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 70
+  OverrideMinDistance: 35
+  OverrideMaxDistance: 75
