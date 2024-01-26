@@ -5,6 +5,8 @@ public class ShelfCollision : MonoBehaviour
     // The cart TAG
     private const string CartTag = "Cart";
 
+    public int numItem=1;
+    public Products product=Products.bread;
     // The particle system reference
     public ParticleSystem collisionParticles;
 
@@ -25,8 +27,8 @@ public class ShelfCollision : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         // Check if the collided object has the specified tag
-        if (collision.gameObject.CompareTag(CartTag))
-        {
+        //if (collision.gameObject.CompareTag(CartTag))
+        //{
             Debug.Log("Owner collided with a Cart!");
 
             if (collisionParticles != null)
@@ -40,6 +42,14 @@ public class ShelfCollision : MonoBehaviour
                 // Particles start
                 collisionParticles.Play();
             }
-        }
+
+
+            if (numItem > 0 && PlayerWallet.instance.CanIBuyIt(product))
+            {
+                numItem--;
+                PlayerWallet.instance.BuyStuff(product);
+                InventoryItems.AddItem(product);
+            }
+        //}
     }
 }

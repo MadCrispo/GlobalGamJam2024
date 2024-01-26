@@ -1,5 +1,261 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8874352044861249735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFXs/Interagibili/Scaffale(3D)
+  m_EditorClassIdentifier: 
+  Path: event:/SFXs/Interagibili/Scaffale(3D)
+  Guid:
+    Data1: -381723665
+    Data2: 1244709947
+    Data3: 658463619
+    Data4: -434058294
+  Banks:
+  - {fileID: -5156724063357657922}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7895413054980692485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFXs/Player/CarrelloSpesa
+  m_EditorClassIdentifier: 
+  Path: event:/SFXs/Player/CarrelloSpesa
+  Guid:
+    Data1: -746669886
+    Data2: 1328512929
+    Data3: -1292370284
+    Data4: 1208437730
+  Banks:
+  - {fileID: -5156724063357657922}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 17000
+--- !u!114 &-7277514793589366919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFXs/Interagibili/Banana
+  m_EditorClassIdentifier: 
+  Path: event:/SFXs/Interagibili/Banana
+  Guid:
+    Data1: -1093329101
+    Data2: 1130016069
+    Data3: 860474273
+    Data4: -2084261182
+  Banks:
+  - {fileID: -5156724063357657922}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5919484173603338486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFXs/UIs/CassaSoldi
+  m_EditorClassIdentifier: 
+  Path: event:/SFXs/UIs/CassaSoldi
+  Guid:
+    Data1: 79409595
+    Data2: 1146971718
+    Data3: -189438825
+    Data4: -1119140904
+  Banks:
+  - {fileID: -5156724063357657922}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5218479283661928093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFXs/Interagibili/SalumiFormaggi
+  m_EditorClassIdentifier: 
+  Path: event:/SFXs/Interagibili/SalumiFormaggi
+  Guid:
+    Data1: 1485717925
+    Data2: 1177115539
+    Data3: 1104129153
+    Data4: -243597570
+  Banks:
+  - {fileID: -5156724063357657922}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5156724063357657922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMODProject/NeedForSpesaProject/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638418744715899080
+  FileSizes:
+  - Name: Desktop
+    Value: 4799520
+  Exists: 1
+--- !u!114 &-4616766668786296192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFXs/NPCs/NPCs(3D)
+  m_EditorClassIdentifier: 
+  Path: event:/SFXs/NPCs/NPCs(3D)
+  Guid:
+    Data1: 1762917554
+    Data2: 1175849015
+    Data3: 1636654777
+    Data4: -297905785
+  Banks:
+  - {fileID: -5156724063357657922}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-3245492138578764399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: FMODProject/NeedForSpesaProject/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638418744715919080
+  FileSizes:
+  - Name: Desktop
+    Value: 1350
+  Exists: 1
+--- !u!114 &-2859072535058352755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFXs/Interagibili/Pandoro
+  m_EditorClassIdentifier: 
+  Path: event:/SFXs/Interagibili/Pandoro
+  Guid:
+    Data1: -320145048
+    Data2: 1228173723
+    Data3: 389260942
+    Data4: -1799723217
+  Banks:
+  - {fileID: -5156724063357657922}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-359728298912041260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFXs/Interagibili/Fagioli
+  m_EditorClassIdentifier: 
+  Path: event:/SFXs/Interagibili/Fagioli
+  Guid:
+    Data1: 1139222220
+    Data2: 1284569359
+    Data3: -755045242
+    Data4: 393992963
+  Banks:
+  - {fileID: -5156724063357657922}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12,10 +268,162 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
-  EditorBanks: []
-  EditorEvents: []
+  EditorBanks:
+  - {fileID: -3245492138578764399}
+  - {fileID: -5156724063357657922}
+  EditorEvents:
+  - {fileID: 5740223278462171805}
+  - {fileID: 6398230374683431437}
+  - {fileID: 9133819156823325218}
+  - {fileID: -7895413054980692485}
+  - {fileID: -7277514793589366919}
+  - {fileID: 7956297528124578949}
+  - {fileID: -2859072535058352755}
+  - {fileID: -5218479283661928093}
+  - {fileID: 4437687074022882831}
+  - {fileID: -4616766668786296192}
+  - {fileID: -5919484173603338486}
+  - {fileID: -359728298912041260}
+  - {fileID: -8874352044861249735}
   EditorParameters: []
-  MasterBanks: []
-  StringsBanks: []
-  cacheTime: 0
+  MasterBanks:
+  - {fileID: -5156724063357657922}
+  StringsBanks:
+  - {fileID: -3245492138578764399}
+  cacheTime: 638418744715919080
   cacheVersion: 131616
+--- !u!114 &4437687074022882831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFXs/Ambiente/Supermercato
+  m_EditorClassIdentifier: 
+  Path: event:/SFXs/Ambiente/Supermercato
+  Guid:
+    Data1: 1827382443
+    Data2: 1168186361
+    Data3: -1887761496
+    Data4: 580351419
+  Banks:
+  - {fileID: -5156724063357657922}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 133000
+--- !u!114 &5740223278462171805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFXs/Ambiente/Comunicazioni
+  m_EditorClassIdentifier: 
+  Path: event:/SFXs/Ambiente/Comunicazioni
+  Guid:
+    Data1: -769652411
+    Data2: 1204064163
+    Data3: 1929919396
+    Data4: -1710279573
+  Banks:
+  - {fileID: -5156724063357657922}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &6398230374683431437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFXs/Ambiente/BeepCassa(3D)
+  m_EditorClassIdentifier: 
+  Path: event:/SFXs/Ambiente/BeepCassa(3D)
+  Guid:
+    Data1: -149756038
+    Data2: 1137663392
+    Data3: 1145570742
+    Data4: 812718911
+  Banks:
+  - {fileID: -5156724063357657922}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 133000
+--- !u!114 &7956297528124578949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFXs/Interagibili/Nutella
+  m_EditorClassIdentifier: 
+  Path: event:/SFXs/Interagibili/Nutella
+  Guid:
+    Data1: -106010015
+    Data2: 1229716591
+    Data3: 1725127054
+    Data4: -643394787
+  Banks:
+  - {fileID: -5156724063357657922}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &9133819156823325218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFXs/Player/Passi
+  m_EditorClassIdentifier: 
+  Path: event:/SFXs/Player/Passi
+  Guid:
+    Data1: 228904111
+    Data2: 1253332719
+    Data3: 976120760
+    Data4: 1006797149
+  Banks:
+  - {fileID: -5156724063357657922}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0

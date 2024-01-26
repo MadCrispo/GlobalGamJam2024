@@ -1,17 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
-using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.AI;
 
 public class AI_Controller : MonoBehaviour
 {
-    public List<Transform> shelfPositions;
+    public List<Transform> shelfPositions = new List<Transform>();
 
-    public List<Civilian> aiCivilianList;
+    public List<Civilian> aiCivilianList=new List<Civilian>();
 
-    public List<Enemy> aiEnemyList;
+    public List<Enemy> aiEnemyList=new List<Enemy>();
 
     public int changeTimer = 30;
 

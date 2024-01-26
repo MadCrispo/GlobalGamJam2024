@@ -17,9 +17,9 @@ public class Enemy : Civilian
 
     public bool inchase = false;
     
-    public void setPlayerTransform(Transform position)
+    public void setPlayerTransform(Transform playerPosition)
     {
-        playerTransform = position;
+        playerTransform = playerPosition;
         oldDestination = newDestination;
         ChasePlayer();
     }
