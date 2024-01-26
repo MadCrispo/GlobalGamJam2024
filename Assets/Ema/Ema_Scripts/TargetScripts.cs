@@ -7,10 +7,7 @@ using UnityEngine.SocialPlatforms.Impl;
 public class TargetScripts : MonoBehaviour
 {
     private ScoreManager gameManager;
-    // Start is called before the first frame update
-
-   
-
+  
     public int pointValue;
 
     void Start()
@@ -24,18 +21,13 @@ public class TargetScripts : MonoBehaviour
     {
 
     }
-   
+    
     private void OnCollisionEnter(Collision collision)
     {
-        if (gameObject.CompareTag("Player"))
-        {
-            Debug.Log("Tocco i palazzi");
-            Destroy(gameObject);
-            gameManager.UpdateScore(pointValue);
-        }
+        Destroy(gameObject);
+        gameManager.UpdateScore(pointValue);
     }
 }
-
 
 
 

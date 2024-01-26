@@ -34,31 +34,30 @@ public class InventoryItems : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    //void Update()
-    //{
-    //    if (iconUpdate == true)
-    //    {
-    //        for (int i = 0; i < max; i++)
-    //        {
-    //            if (empitySlots[i].sprite == empityIcon)
-    //            {
-    //                max = i;
-    //                empitySlots[i].sprite = icons[newIcon];
-    //                //empitySlots[i].transform.gameObject.GetComponent<HintMessage>().ObjectType = newIcon;
-    //
-    //            }
-    //        }
-    //        StartCoroutine(Reset());
-    //    }
-    //}
+    //Update is called once per frame
+    void Update()
+    {
+        if (iconUpdate == true)
+        {
+            for (int i = 0; i < max; i++)
+            {
+                if (empitySlots[i].sprite == empityIcon)
+                {
+                    max = i;
+                    empitySlots[i].sprite = icons[newIcon];
 
-    //IEnumerator Reset()
-    //{ 
-    //  yield return new WaitForSeconds(1);
-    //    iconUpdate = false;
-    //    max = empitySlots.Length;
-    //}
+                }
+            }
+            StartCoroutine(Reset());
+        }
+    }
+
+    IEnumerator Reset()
+    {
+        yield return new WaitForSeconds(1);
+        iconUpdate = false;
+        max = empitySlots.Length;
+    }
 
     public void AddIcon(Products product)
     {
