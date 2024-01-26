@@ -34,9 +34,10 @@ public class FMODEvents : MonoBehaviour
     public void Start()
     {
         //creazione delle instance FMOD (loop)
-        music = FMODUnity.RuntimeManager.CreateInstance("event:/Musica/Music");
-        //ambienceSFX = FMODUnity.RuntimeManager.CreateInstance("event:/Musica/LoopMusicLevel");
-        music.start();
+        //music = FMODUnity.RuntimeManager.CreateInstance("event:/Musica/Music");
+        ambienceSFX = FMODUnity.RuntimeManager.CreateInstance("event:/SFXs/Ambiente/Supermercato");
+        //music.start();
+        ambienceSFX.start();
     }
 
     public void Update()

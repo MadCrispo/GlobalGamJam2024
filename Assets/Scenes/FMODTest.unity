@@ -9315,7 +9315,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   numItem: 2
   product: 2
-  collisionParticles: {fileID: 0}
+  collisionParticles: {fileID: 160533530}
 --- !u!1 &430556760
 GameObject:
   m_ObjectHideFlags: 0
@@ -11718,7 +11718,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   numItem: 2
   product: 1
-  collisionParticles: {fileID: 0}
+  collisionParticles: {fileID: 160533530}
 --- !u!43 &534575577
 Mesh:
   m_ObjectHideFlags: 0
@@ -15626,7 +15626,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   numItem: 2
   product: 2
-  collisionParticles: {fileID: 0}
+  collisionParticles: {fileID: 160533530}
 --- !u!1 &733760309
 GameObject:
   m_ObjectHideFlags: 0
@@ -16034,7 +16034,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   numItem: 2
   product: 1
-  collisionParticles: {fileID: 0}
+  collisionParticles: {fileID: 160533530}
 --- !u!1 &759727396
 GameObject:
   m_ObjectHideFlags: 0
@@ -18590,6 +18590,69 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NoBumptime: 5
   bounceforce: 1000
+--- !u!1 &953510620
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 953510621}
+  - component: {fileID: 953510622}
+  m_Layer: 0
+  m_Name: GameObject (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &953510621
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 953510620}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.42, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2062026890}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &953510622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 953510620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -149756038
+      Data2: 1137663392
+      Data3: 1145570742
+      Data4: 812718911
+    Path: event:/SFXs/Ambiente/BeepCassa(3D)
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0.5
+  OverrideMaxDistance: 65
 --- !u!1 &1000536874
 GameObject:
   m_ObjectHideFlags: 0
@@ -20490,7 +20553,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   numItem: 2
   product: 2
-  collisionParticles: {fileID: 0}
+  collisionParticles: {fileID: 160533530}
 --- !u!1 &1187669037
 GameObject:
   m_ObjectHideFlags: 0
@@ -20913,7 +20976,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   numItem: 2
   product: 2
-  collisionParticles: {fileID: 0}
+  collisionParticles: {fileID: 160533530}
 --- !u!1 &1195964931
 GameObject:
   m_ObjectHideFlags: 0
@@ -21820,7 +21883,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   numItem: 2
   product: 1
-  collisionParticles: {fileID: 0}
+  collisionParticles: {fileID: 160533530}
 --- !u!43 &1305070220
 Mesh:
   m_ObjectHideFlags: 0
@@ -23314,7 +23377,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   numItem: 2
   product: 1
-  collisionParticles: {fileID: 0}
+  collisionParticles: {fileID: 160533530}
 --- !u!43 &1449958750
 Mesh:
   m_ObjectHideFlags: 0
@@ -29333,7 +29396,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   numItem: 2
   product: 2
-  collisionParticles: {fileID: 0}
+  collisionParticles: {fileID: 160533530}
 --- !u!43 &1708566374
 Mesh:
   m_ObjectHideFlags: 0
@@ -31430,7 +31493,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   numItem: 2
   product: 2
-  collisionParticles: {fileID: 0}
+  collisionParticles: {fileID: 160533530}
 --- !u!1 &1802639884
 GameObject:
   m_ObjectHideFlags: 0
@@ -31935,7 +31998,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   numItem: 2
   product: 1
-  collisionParticles: {fileID: 0}
+  collisionParticles: {fileID: 160533530}
 --- !u!1001 &1813816198
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34174,7 +34237,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   numItem: 2
   product: 1
-  collisionParticles: {fileID: 0}
+  collisionParticles: {fileID: 160533530}
 --- !u!1 &1947692087
 GameObject:
   m_ObjectHideFlags: 0
@@ -35635,6 +35698,38 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &2062026889
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2062026890}
+  m_Layer: 0
+  m_Name: FMOD World Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2062026890
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2062026889}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.225999, y: 7.306817, z: -13.864784}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 953510621}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2062316332
 GameObject:
   m_ObjectHideFlags: 0
@@ -37061,3 +37156,4 @@ SceneRoots:
   - {fileID: 1813816198}
   - {fileID: 7826952695819789027}
   - {fileID: 5391144192812878127}
+  - {fileID: 2062026890}
