@@ -6,7 +6,7 @@ using UnityEngine.AI;
 
 public class AI_Controller : MonoBehaviour
 {
-    public List<Transform> shelfPositions = new List<Transform>();
+    public List<NPC_Destination> shelfPositions = new List<NPC_Destination>();
 
     public List<Civilian> aiCivilianList=new List<Civilian>();
 
@@ -25,6 +25,7 @@ public class AI_Controller : MonoBehaviour
 
     private void Start()
     {
+        UpdateNPCDestinations();
         UpdateCivilianList();
         UpdateEnemyList();
         StartCoroutine(GenerateNewDestinationPacific());
@@ -33,13 +34,13 @@ public class AI_Controller : MonoBehaviour
 
     public void SetShelfDestinations()
     {
-        List<Transform> avaiablePositions = new List<Transform>(shelfPositions);
+        List<NPC_Destination> avaiablePositions = new List<NPC_Destination>(shelfPositions);
 
         foreach (Civilian c in aiCivilianList)
         {
             int sorted = 0;
             sorted = Random.Range(0, avaiablePositions.Count);
-            c.newDestination = avaiablePositions[sorted];
+            c.newDestination = avaiablePositions[sorted].transform;
             avaiablePositions.RemoveAt(sorted);
 
         }
@@ -65,6 +66,16 @@ public class AI_Controller : MonoBehaviour
         aiEnemyList.Clear();
         aiEnemyList = currentSceneEnemy;
 
+    }
+
+    public void UpdateNPCDestinations()
+    {
+        List<NPC_Destination> currentSceneNPCDestination = new List<NPC_Destination>();
+        currentSceneNPCDestination.Clear();
+        NPC_Destination[] destinationInScene = FindObjectsOfType<NPC_Destination>();
+        currentSceneNPCDestination.AddRange(destinationInScene);
+        shelfPositions.Clear();
+        shelfPositions = currentSceneNPCDestination;
     }
 
 }

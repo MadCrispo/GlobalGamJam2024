@@ -150,10 +150,10 @@ MonoBehaviour:
   Path: FMODProject/NeedForSpesaProject/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638418788410246707
+  lastModified: 638419021445555827
   FileSizes:
   - Name: Desktop
-    Value: 4799520
+    Value: 4912160
   Exists: 1
 --- !u!114 &-4616766668786296192
 MonoBehaviour:
@@ -179,7 +179,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters: []
-  MinDistance: 1
+  MinDistance: 0
   MaxDistance: 20
   Length: 0
 --- !u!114 &-3245492138578764399
@@ -197,10 +197,10 @@ MonoBehaviour:
   Path: FMODProject/NeedForSpesaProject/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638418788410258186
+  lastModified: 638419021445575817
   FileSizes:
   - Name: Desktop
-    Value: 1350
+    Value: 1354
   Exists: 1
 --- !u!114 &-2859072535058352755
 MonoBehaviour:
@@ -272,7 +272,6 @@ MonoBehaviour:
   - {fileID: -3245492138578764399}
   - {fileID: -5156724063357657922}
   EditorEvents:
-  - {fileID: 5740223278462171805}
   - {fileID: 6398230374683431437}
   - {fileID: 9133819156823325218}
   - {fileID: -7895413054980692485}
@@ -285,12 +284,13 @@ MonoBehaviour:
   - {fileID: -5919484173603338486}
   - {fileID: -359728298912041260}
   - {fileID: -8874352044861249735}
+  - {fileID: 5720686694947196843}
   EditorParameters: []
   MasterBanks:
   - {fileID: -5156724063357657922}
   StringsBanks:
   - {fileID: -3245492138578764399}
-  cacheTime: 638418788410258186
+  cacheTime: 638419021445575817
   cacheVersion: 131616
 --- !u!114 &4437687074022882831
 MonoBehaviour:
@@ -319,7 +319,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 133000
---- !u!114 &5740223278462171805
+--- !u!114 &5720686694947196843
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -329,22 +329,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFXs/Ambiente/Comunicazioni
+  m_Name: event:/SFXs/Ambiente/Comunicazioni(3D)
   m_EditorClassIdentifier: 
-  Path: event:/SFXs/Ambiente/Comunicazioni
+  Path: event:/SFXs/Ambiente/Comunicazioni(3D)
   Guid:
-    Data1: -769652411
-    Data2: 1204064163
-    Data3: 1929919396
-    Data4: -1710279573
+    Data1: 1199739152
+    Data2: 1109140088
+    Data3: 710959801
+    Data4: -2053895697
   Banks:
   - {fileID: -5156724063357657922}
   IsStream: 1
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
+  MinDistance: 35
+  MaxDistance: 75
   Length: 0
 --- !u!114 &6398230374683431437
 MonoBehaviour:
@@ -370,8 +370,8 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 0
   Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
+  MinDistance: 9
+  MaxDistance: 50
   Length: 133000
 --- !u!114 &7956297528124578949
 MonoBehaviour:
