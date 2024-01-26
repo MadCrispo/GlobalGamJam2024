@@ -10,7 +10,7 @@ public class AI_Controller : MonoBehaviour
 
     public List<Civilian> aiCivilianList=new List<Civilian>();
 
-    public List<Enemy> aiEnemyList=new List<Enemy>();
+    // public List<Enemy> aiEnemyList=new List<Enemy>();
 
     public int changeTimer = 30;
 
@@ -27,7 +27,7 @@ public class AI_Controller : MonoBehaviour
     {
         UpdateNPCDestinations();
         UpdateCivilianList();
-        UpdateEnemyList();
+        // UpdateEnemyList();
         StartCoroutine(GenerateNewDestinationPacific());
 
     }
@@ -57,7 +57,7 @@ public class AI_Controller : MonoBehaviour
         
     }
 
-    public void UpdateEnemyList()
+   /* public void UpdateEnemyList()
     {
         List<Enemy> currentSceneEnemy = new List<Enemy>();
         currentSceneEnemy.Clear();
@@ -67,6 +67,7 @@ public class AI_Controller : MonoBehaviour
         aiEnemyList = currentSceneEnemy;
 
     }
+   */
 
     public void UpdateNPCDestinations()
     {
