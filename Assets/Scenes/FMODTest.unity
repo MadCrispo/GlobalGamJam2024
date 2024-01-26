@@ -19575,7 +19575,7 @@ MonoBehaviour:
   Params: []
   OverrideAttenuation: 0
   OverrideMinDistance: 0
-  OverrideMaxDistance: 20
+  OverrideMaxDistance: 35
 --- !u!136 &1018632335
 CapsuleCollider:
   m_ObjectHideFlags: 0

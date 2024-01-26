@@ -34,9 +34,9 @@ public class FMODEvents : MonoBehaviour
     public void Start()
     {
         //creazione delle instance FMOD (loop)
-        //music = FMODUnity.RuntimeManager.CreateInstance("event:/Musica/Music");
+        music = FMODUnity.RuntimeManager.CreateInstance("event:/Music/Music");
         ambienceSFX = FMODUnity.RuntimeManager.CreateInstance("event:/SFXs/Ambiente/Supermercato");
-        //music.start();
+        music.start();
         ambienceSFX.start();
     }
 
@@ -45,21 +45,20 @@ public class FMODEvents : MonoBehaviour
         //Gestione parametri diverse scene
         //reference temporanea alla scena attuale
         scene = SceneManager.GetActiveScene();
-        //settaggio parametri dell'FMOD event music a seconda della scena:
-        music.getParameterByName("TransizioneScene", out float val);
+        //settaggio parametri dell'FMOD event music a seconda della scena: "MusicTransition" 0 = intro menu, 1 = start game, 2 = ending music, 3 = gameover stinger.
+        music.getParameterByName("MusicTransition", out float val);
 
-        if (scene.name == "FMOD Test1" && val != 0)
+        if (scene.name == "FMODTest" && val != 1)
         {
-            //valore parametro FMOD "TransizioneScene" 0 = menù:
-            music.setParameterByName("TransizioneScene", 0);
+            music.setParameterByName("MusicTransition", 1);
             //FIltro OFF nel menu
-            music.setParameterByName("PauseFilter", 0);
+            //music.setParameterByName("PauseFilter", 1);
         }
-        else if (scene.name == "gino" && val != 1)
-        {
-            //valore parametro FMOD "TransizioneScene" 1 = level1:
-            music.setParameterByName("TransizioneScene", 1);
-        }
+
+        //else if (scene.name == "MenuIniziale" && val != 0)
+        //{
+        //    music.setParameterByName("MusicTransition", 0);
+        //}
     }
 
     //effetto cutoff filtro dai parametri in FMOD (per stati pause e morte)

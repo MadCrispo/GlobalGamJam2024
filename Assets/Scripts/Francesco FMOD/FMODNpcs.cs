@@ -14,7 +14,7 @@ public class FMODNpcs : MonoBehaviour
     {
         while (true)
         {
-            yield return new WaitForSeconds(Random.Range(7.0f, 12.0f));
+            yield return new WaitForSeconds(Random.Range(12.0f, 18.0f));
             GetComponent<FMODUnity.StudioEventEmitter>().Play();
             //il codice qui si ripeterà ogni X secondi 
         }
