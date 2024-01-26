@@ -25,31 +25,31 @@ public class Prodotti : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-
-            if (bread == true)
-            {
-
-                if (InventoryItems.bread == 0)
-                {
+           
+            //if (bread == true)
+            //{
+            //   
+            //    if (InventoryItems.bread == 0)
+            //    {
+            //        DisplayIcons();
+            //    }
+            //    InventoryItems.bread++;
+            //    Destroy(gameObject);
+            //}
+            //else if (cheese == true)
+            //{
+            //    if (InventoryItems.cheese == 0)
+            //    {
+            //    }
+            //    InventoryItems.cheese++;
+            //    Destroy(gameObject);
+            //}
+            //else
+            //{
+            //    DisplayIcons();
+            //    Destroy(gameObject);
+            //}
                     DisplayIcons();
-                }
-                InventoryItems.bread++;
-                Destroy(gameObject);
-            }
-            else if (cheese == true)
-            {
-                if (InventoryItems.cheese == 0)
-                {
-                }
-                InventoryItems.cheese++;
-                Destroy(gameObject);
-            }
-            else
-            {
-                DisplayIcons();
-                Destroy(gameObject);
-            }
-            DisplayIcons();
             
         }
        
@@ -60,5 +60,4 @@ public class Prodotti : MonoBehaviour
         InventoryItems.newIcon = number;
         InventoryItems.iconUpdate = true;
     }
-    
 }
