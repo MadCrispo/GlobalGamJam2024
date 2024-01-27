@@ -12,15 +12,15 @@ public class ItemEffects:MonoBehaviour
         movement= GetComponentInChildren<PlayerMovement>();
         cam = GetComponentInChildren<PlayerCam>();
     }
-    public void ApplyItemEffect()
+    public void ApplyItemEffect(InventoryItems inventory)
     {
-        Products product = InventoryItems.instance.special;
+        Products product = inventory.special;
 
         switch (product)
         {
             case Products.banana:
-                InventoryItems.instance.special = Products.noSpecial;
-                InventoryItems.instance.UseSpecialItem();
+                inventory.special = Products.noSpecial;
+                inventory.UseSpecialItem();
                 StartCoroutine(BananaEffect());
                 break;
         }

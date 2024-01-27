@@ -73,7 +73,7 @@ public class PlayerMovement : MonoBehaviour
         else
             rb.drag = 0;
     }
-
+    
     private void FixedUpdate()
     {
         MovePlayer();

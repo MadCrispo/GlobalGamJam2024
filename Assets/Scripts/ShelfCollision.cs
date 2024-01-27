@@ -24,7 +24,7 @@ public class ShelfCollision : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-
+        PlayerWallet wallet = collision.gameObject.GetComponentInParent<PlayerWallet>();
         Debug.Log("Owner collided with a Cart!");
 
         if (collisionParticles != null)
@@ -43,14 +43,14 @@ public class ShelfCollision : MonoBehaviour
         if (numItem > 0)
         {
             numItem--;
-            PlayerWallet.instance.BuyStuff(product);
+            wallet?.BuyStuff(product);
 
             if (product == Products.banana)
-                InventoryItems.instance.AddSpecialIcon(product);
+                wallet.inventory.AddSpecialIcon(product);
             else
-                InventoryItems.instance.AddItem(product);
+                wallet.inventory.AddItem(product);
 
-            if (!PlayerWallet.instance.CanIBuyIt(product))
+            if (!wallet.CanIBuyIt(product))
                 Debug.Log("Lose event");
         }
     }

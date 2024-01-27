@@ -10,14 +10,10 @@ public class InventoryItems : MonoBehaviour
     public Sprite empityIcon;
     public Sprite[] icons;
     public static List<int> allProducts = new List<int>();
-
-    public static InventoryItems instance;
+    
     public Products special { get; set; }
     private void Awake()
     {
-        if (instance == null)
-            instance = this;
-
         for (int x = 0; x < 20; x++)
         {
             allProducts.Add(0);
@@ -55,10 +51,10 @@ public class InventoryItems : MonoBehaviour
             }
         }
     }
-    public  void AddItem(Products product)
+    public void AddItem(Products product)
     {
         allProducts[(int)product]++;
-        instance.AddIcon(product);
+        AddIcon(product);
     }
 
     public  void UseItem(Products product)
@@ -67,7 +63,7 @@ public class InventoryItems : MonoBehaviour
             allProducts[(int)product]--;
 
         if (allProducts[(int)product] == 0)
-            instance.EmptyIcon(product);
+           EmptyIcon(product);
     }
     public void UseSpecialItem()
     {
