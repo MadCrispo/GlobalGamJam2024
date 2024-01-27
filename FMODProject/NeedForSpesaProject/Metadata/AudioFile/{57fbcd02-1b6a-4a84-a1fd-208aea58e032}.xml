@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{57fbcd02-1b6a-4a84-a1fd-208aea58e032}">
+		<property name="assetPath">
+			<value>Interagibili/Cipolle2.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>7.1562585034013608</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f9978a9d-a908-4455-8d99-458e4047ed7f}</destination>
+		</relationship>
+	</object>
+</objects>

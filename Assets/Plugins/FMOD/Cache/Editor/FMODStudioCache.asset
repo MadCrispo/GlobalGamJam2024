@@ -27,6 +27,33 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 50
   Length: 0
+--- !u!114 &-8446920346958450506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFXs/Interagibili/Ostacoli(3D)
+  m_EditorClassIdentifier: 
+  Path: event:/SFXs/Interagibili/Ostacoli(3D)
+  Guid:
+    Data1: 694302706
+    Data2: 1290383894
+    Data3: -261364061
+    Data4: 1104735310
+  Banks:
+  - {fileID: -5156724063357657922}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 50
+  Length: 0
 --- !u!114 &-7895413054980692485
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108,7 +135,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-5218479283661928093
+--- !u!114 &-5515806418876082970
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -118,14 +145,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFXs/Interagibili/SalumiFormaggi
+  m_Name: event:/SFXs/Interagibili/Cipolle
   m_EditorClassIdentifier: 
-  Path: event:/SFXs/Interagibili/SalumiFormaggi
+  Path: event:/SFXs/Interagibili/Cipolle
   Guid:
-    Data1: 1485717925
-    Data2: 1177115539
-    Data3: 1104129153
-    Data4: -243597570
+    Data1: -1514986380
+    Data2: 1141741985
+    Data3: -298694504
+    Data4: 1331830605
   Banks:
   - {fileID: -5156724063357657922}
   IsStream: 0
@@ -150,10 +177,10 @@ MonoBehaviour:
   Path: FMODProject/NeedForSpesaProject/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638419510290314335
+  lastModified: 638419655978807640
   FileSizes:
   - Name: Desktop
-    Value: 7173088
+    Value: 7531296
   Exists: 1
 --- !u!114 &-4616766668786296192
 MonoBehaviour:
@@ -197,10 +224,10 @@ MonoBehaviour:
   Path: FMODProject/NeedForSpesaProject/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638419510290340736
+  lastModified: 638419655978827636
   FileSizes:
   - Name: Desktop
-    Value: 1690
+    Value: 1798
   Exists: 1
 --- !u!114 &-2859072535058352755
 MonoBehaviour:
@@ -220,6 +247,33 @@ MonoBehaviour:
     Data2: 1228173723
     Data3: 389260942
     Data4: -1799723217
+  Banks:
+  - {fileID: -5156724063357657922}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1936460708383553687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFXs/Interagibili/Spinaci
+  m_EditorClassIdentifier: 
+  Path: event:/SFXs/Interagibili/Spinaci
+  Guid:
+    Data1: 1485717925
+    Data2: 1177115539
+    Data3: 1104129153
+    Data4: -243597570
   Banks:
   - {fileID: -5156724063357657922}
   IsStream: 0
@@ -280,6 +334,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-162372468565499556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFXs/Interagibili/Vino
+  m_EditorClassIdentifier: 
+  Path: event:/SFXs/Interagibili/Vino
+  Guid:
+    Data1: 1060746655
+    Data2: 1218161285
+    Data3: -676703851
+    Data4: 236818207
+  Banks:
+  - {fileID: -5156724063357657922}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -302,7 +383,6 @@ MonoBehaviour:
   - {fileID: -7277514793589366919}
   - {fileID: 7956297528124578949}
   - {fileID: -2859072535058352755}
-  - {fileID: -5218479283661928093}
   - {fileID: 4437687074022882831}
   - {fileID: -4616766668786296192}
   - {fileID: -5919484173603338486}
@@ -310,12 +390,16 @@ MonoBehaviour:
   - {fileID: -8874352044861249735}
   - {fileID: 5720686694947196843}
   - {fileID: 2201884439364553433}
+  - {fileID: -1936460708383553687}
+  - {fileID: -5515806418876082970}
+  - {fileID: -162372468565499556}
+  - {fileID: -8446920346958450506}
   EditorParameters: []
   MasterBanks:
   - {fileID: -5156724063357657922}
   StringsBanks:
   - {fileID: -3245492138578764399}
-  cacheTime: 638419510290340736
+  cacheTime: 638419655978827636
   cacheVersion: 131616
 --- !u!114 &2201884439364553433
 MonoBehaviour:

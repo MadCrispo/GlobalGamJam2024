@@ -1032,7 +1032,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NoBumptime: 5
-  bounceforce: 1000
 --- !u!1 &78138304
 GameObject:
   m_ObjectHideFlags: 0
@@ -9573,7 +9572,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NoBumptime: 5
-  bounceforce: 1000
 --- !u!114 &421369800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9587,7 +9585,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NoBumptime: 5
-  bounceforce: 100
 --- !u!114 &421369801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9994,7 +9991,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NoBumptime: 5
-  bounceforce: 1000
 --- !u!1 &450867588
 GameObject:
   m_ObjectHideFlags: 0
@@ -11040,7 +11036,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NoBumptime: 5
-  bounceforce: 1000
 --- !u!114 &510386020
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11992,7 +11987,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NoBumptime: 5
-  bounceforce: 1000
 --- !u!114 &533168835
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12869,7 +12863,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NoBumptime: 5
-  bounceforce: 1000
 --- !u!43 &586303340
 Mesh:
   m_ObjectHideFlags: 0
@@ -13635,7 +13628,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NoBumptime: 5
-  bounceforce: 1000
 --- !u!1 &632726905
 GameObject:
   m_ObjectHideFlags: 0
@@ -13999,7 +13991,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NoBumptime: 5
-  bounceforce: 1000
 --- !u!136 &645147758
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -16093,7 +16084,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NoBumptime: 5
-  bounceforce: 1000
 --- !u!114 &718720776
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16501,7 +16491,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NoBumptime: 5
-  bounceforce: 1000
 --- !u!114 &733760317
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18058,7 +18047,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NoBumptime: 5
-  bounceforce: 100
 --- !u!1 &890211531
 GameObject:
   m_ObjectHideFlags: 0
@@ -19223,7 +19211,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NoBumptime: 5
-  bounceforce: 1000
 --- !u!1 &1000536874
 GameObject:
   m_ObjectHideFlags: 0
@@ -19615,7 +19602,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NoBumptime: 5
-  bounceforce: 1000
 --- !u!1 &1002350600
 GameObject:
   m_ObjectHideFlags: 0
@@ -21397,7 +21383,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NoBumptime: 5
-  bounceforce: 1000
 --- !u!114 &1124803365
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21411,7 +21396,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NoBumptime: 5
-  bounceforce: 100
 --- !u!114 &1124803366
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21820,7 +21804,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NoBumptime: 5
-  bounceforce: 1000
 --- !u!114 &1187669045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21834,7 +21817,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NoBumptime: 5
-  bounceforce: 100
 --- !u!114 &1187669046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22741,7 +22723,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NoBumptime: 5
-  bounceforce: 1000
 --- !u!114 &1282445539
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22937,7 +22918,7 @@ GameObject:
   - component: {fileID: 1314905498}
   - component: {fileID: 1314905497}
   m_Layer: 0
-  m_Name: TestSalumi
+  m_Name: TestSpinaci
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22962,7 +22943,7 @@ MonoBehaviour:
       Data2: 1177115539
       Data3: 1104129153
       Data4: -243597570
-    Path: event:/SFXs/Interagibili/SalumiFormaggi
+    Path: event:/SFXs/Interagibili/Spinaci
   Event: 
   PlayEvent: 0
   StopEvent: 0
@@ -23662,7 +23643,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NoBumptime: 5
-  bounceforce: 1000
 --- !u!43 &1360142097
 Mesh:
   m_ObjectHideFlags: 0
@@ -24550,7 +24530,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NoBumptime: 5
-  bounceforce: 1000
 --- !u!114 &1448087918
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28271,7 +28250,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NoBumptime: 5
-  bounceforce: 100
 --- !u!1 &1610611383
 GameObject:
   m_ObjectHideFlags: 0
@@ -30555,7 +30533,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NoBumptime: 5
-  bounceforce: 1000
 --- !u!114 &1701905830
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30569,7 +30546,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NoBumptime: 5
-  bounceforce: 100
 --- !u!114 &1701905831
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31683,7 +31659,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NoBumptime: 5
-  bounceforce: 1000
 --- !u!1 &1786275443
 GameObject:
   m_ObjectHideFlags: 0
@@ -32630,7 +32605,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NoBumptime: 5
-  bounceforce: 1000
 --- !u!114 &1794021684
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32644,7 +32618,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NoBumptime: 5
-  bounceforce: 100
 --- !u!114 &1794021685
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33149,7 +33122,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NoBumptime: 5
-  bounceforce: 1000
 --- !u!114 &1812582116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34995,7 +34967,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NoBumptime: 5
-  bounceforce: 100
 --- !u!1 &1937880996
 GameObject:
   m_ObjectHideFlags: 0
@@ -35388,7 +35359,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NoBumptime: 5
-  bounceforce: 1000
 --- !u!114 &1937881004
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38274,6 +38244,10 @@ PrefabInstance:
     - target: {fileID: 6466373379002743118, guid: e88b83a9ed7be7e4992625af962399c6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8958507734112945908, guid: e88b83a9ed7be7e4992625af962399c6, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 65
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

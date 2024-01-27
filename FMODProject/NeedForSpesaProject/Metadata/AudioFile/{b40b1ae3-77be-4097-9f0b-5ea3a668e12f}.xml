@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{b40b1ae3-77be-4097-9f0b-5ea3a668e12f}">
 		<property name="assetPath">
-			<value>defeat.wav</value>
+			<value>Music/defeat.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

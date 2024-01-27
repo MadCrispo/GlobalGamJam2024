@@ -65,6 +65,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2f2c189b4a6d34b40bf2a49125c7583d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5555185211753892871}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2f2c189b4a6d34b40bf2a49125c7583d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -2702567834024521516}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2f2c189b4a6d34b40bf2a49125c7583d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8649559248855717557}
   m_SourcePrefab: {fileID: 100100000, guid: 2f2c189b4a6d34b40bf2a49125c7583d, type: 3}
 --- !u!1 &7872461268391635038 stripped
 GameObject:
@@ -120,3 +126,46 @@ MonoBehaviour:
   numItem: 1
   product: 1
   collisionParticles: {fileID: 0}
+--- !u!114 &-2702567834024521516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7872461268391635038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -381723665
+      Data2: 1244709947
+      Data3: 658463619
+      Data4: -434058294
+    Path: event:/SFXs/Interagibili/Scaffale(3D)
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 50
+--- !u!114 &8649559248855717557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7872461268391635038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaf3f9f984836294ab23cd46cc9fab69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
