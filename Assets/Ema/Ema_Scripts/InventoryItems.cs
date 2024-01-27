@@ -72,5 +72,5 @@ public class InventoryItems : MonoBehaviour
 }
 public enum Products
 {
-   noSpecial=0, bread=1, cheese=2,beans=3,banana=4,spinach=5,nutella=6,wine=7,panettone=9
+   noSpecial=0, bread=1, cheese=2,beans=3,banana=4,spinach=5,nutella=6,wine=7,panettone=9, onion=10
 }

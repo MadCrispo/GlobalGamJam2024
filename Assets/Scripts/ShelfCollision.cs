@@ -45,7 +45,7 @@ public class ShelfCollision : MonoBehaviour
             numItem--;
             wallet?.BuyStuff(product);
 
-            if (product == Products.banana)
+            if (product !=  Products.noSpecial)
                 wallet.inventory.AddSpecialIcon(product);
             else
                 wallet.inventory.AddItem(product);
