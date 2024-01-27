@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{6913fcb2-0837-4616-b95e-8d6187513eee}">
+		<property name="color">
+			<value>Red</value>
+		</property>
 		<property name="name">
 			<value>NPCs(3D)</value>
 		</property>
@@ -59,7 +62,7 @@
 			<destination>{6401f10e-d98a-45b4-a172-ea2ff0371e47}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{cc9a96e2-0bef-4c6b-9893-fda3b77f53fe}</destination>
+			<destination>{37d280e8-6766-4ee5-b560-047a09669c91}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{a160029e-62be-41b3-8d66-d36dfab7a0ae}">
@@ -73,7 +76,7 @@
 			<value>0</value>
 		</property>
 		<property name="maximumDistance">
-			<value>35</value>
+			<value>45</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{e8badfd5-9c31-4a9e-af5e-be08426696ef}" />
@@ -93,9 +96,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{b9fdea84-5890-49fc-98da-529a7a80bd2b}">
-		<property name="volume">
-			<value>1</value>
-		</property>
 		<relationship name="effectChain">
 			<destination>{d18e0b9b-aaaf-4720-9981-f00c492c257b}</destination>
 		</relationship>
@@ -163,7 +163,7 @@
 			<value>0</value>
 		</property>
 		<property name="maximumDistance">
-			<value>35</value>
+			<value>45</value>
 		</property>
 		<property name="extentMode">
 			<value>1</value>

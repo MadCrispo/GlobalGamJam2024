@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{838f8bfe-0482-4004-9740-0d4bf8cbd900}">
+		<property name="color">
+			<value>Magenta Light 2</value>
+		</property>
+		<property name="name">
+			<value>Interagibili</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{cc0c26ac-a30a-4530-9b1c-ed8b6b8c7ca7}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{55fb75a1-8356-414a-bfd9-43e00e5d9b6d}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{cc9a96e2-0bef-4c6b-9893-fda3b77f53fe}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{cc0c26ac-a30a-4530-9b1c-ed8b6b8c7ca7}">
+		<relationship name="effects">
+			<destination>{a3110122-18a5-4b58-bb90-858ac2103919}</destination>
+			<destination>{9f7c4e89-1317-4b45-a165-ad1ad7f8580e}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{55fb75a1-8356-414a-bfd9-43e00e5d9b6d}" />
+	<object class="MixerBusFader" id="{a3110122-18a5-4b58-bb90-858ac2103919}" />
+	<object class="Sidechain" id="{9f7c4e89-1317-4b45-a165-ad1ad7f8580e}" />
+</objects>

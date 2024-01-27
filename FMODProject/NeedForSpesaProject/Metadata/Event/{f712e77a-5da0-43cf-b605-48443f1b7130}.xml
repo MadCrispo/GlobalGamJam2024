@@ -56,18 +56,24 @@
 			<destination>{9ea77804-5312-4bcd-85f0-6993b9714fa4}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{cc9a96e2-0bef-4c6b-9893-fda3b77f53fe}</destination>
+			<destination>{ff19fb33-4446-43a9-b0b2-8c72dbf5f7ca}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{b0058942-8378-407d-9daa-40787c758727}">
 		<property name="maxVoices">
 			<value>1</value>
 		</property>
+		<property name="dopplerEnabled">
+			<value>true</value>
+		</property>
+		<property name="dopplerScale">
+			<value>300</value>
+		</property>
 		<property name="minimumDistance">
 			<value>9</value>
 		</property>
 		<property name="maximumDistance">
-			<value>50</value>
+			<value>65</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{87d49fc5-2580-4858-8267-ec8d1c3b5c43}" />
@@ -169,7 +175,7 @@
 			<value>9</value>
 		</property>
 		<property name="maximumDistance">
-			<value>50</value>
+			<value>65</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{a12f208b-0da6-481b-85ba-8b5b8c6f1dc1}" />

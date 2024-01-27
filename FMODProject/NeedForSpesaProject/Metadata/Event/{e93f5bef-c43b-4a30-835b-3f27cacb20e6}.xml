@@ -62,15 +62,21 @@
 			<destination>{fcc12fa5-4898-4373-a3c2-624cd50a3983}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{cc9a96e2-0bef-4c6b-9893-fda3b77f53fe}</destination>
+			<destination>{838f8bfe-0482-4004-9740-0d4bf8cbd900}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{91bf4772-008e-41dd-9d3d-517aa66e90c4}">
 		<property name="maxVoices">
-			<value>2</value>
+			<value>3</value>
 		</property>
 		<property name="voiceStealing">
 			<value>2</value>
+		</property>
+		<property name="minimumDistance">
+			<value>0</value>
+		</property>
+		<property name="maximumDistance">
+			<value>50</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{d2c45e01-9005-4608-9044-e4780cef2eae}" />
@@ -90,6 +96,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{0bc16a3e-30eb-469f-9fb2-4c0d2b98d735}">
+		<property name="volume">
+			<value>-1</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{4a4d0098-51ca-4f3f-a008-0177591d6875}</destination>
 		</relationship>
@@ -133,6 +142,12 @@
 	</object>
 	<object class="MixerBusPanner" id="{64389c5e-e2c0-40db-8d37-b5a54ea44c1a}" />
 	<object class="MultiSound" id="{7d5c71fc-205c-4804-8783-619e2382471c}">
+		<property name="volume">
+			<value>-2</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{37dcd14b-061b-46bd-9c7e-fe14d69bc373}</destination>
+		</relationship>
 		<relationship name="sounds">
 			<destination>{09c340b5-e6c9-46bb-a784-b5fa3a81fe92}</destination>
 			<destination>{b99517ac-aae7-43f4-a300-f46e3c321ec6}</destination>
@@ -147,7 +162,22 @@
 	</object>
 	<object class="MixerBusPanner" id="{d4a34b7b-a5dc-49e8-9dd8-67e09eb36005}" />
 	<object class="MixerBusFader" id="{69b3d59c-1e29-4875-b6ba-a6a5922b9a24}" />
-	<object class="SpatialiserEffect" id="{03e9f8af-8c2b-493a-92b7-82539823dd13}" />
+	<object class="SpatialiserEffect" id="{03e9f8af-8c2b-493a-92b7-82539823dd13}">
+		<property name="minimumDistance">
+			<value>0</value>
+		</property>
+		<property name="maximumDistance">
+			<value>50</value>
+		</property>
+	</object>
+	<object class="RandomizerModulator" id="{37dcd14b-061b-46bd-9c7e-fe14d69bc373}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>4</value>
+		</property>
+	</object>
 	<object class="SingleSound" id="{09c340b5-e6c9-46bb-a784-b5fa3a81fe92}">
 		<relationship name="audioFile">
 			<destination>{9644b66b-02ba-42c0-a677-e4b0442063e2}</destination>
