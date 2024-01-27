@@ -78,6 +78,9 @@
 		<property name="maximumDistance">
 			<value>50</value>
 		</property>
+		<property name="triggerCooldown">
+			<value>520</value>
+		</property>
 	</object>
 	<object class="MarkerTrack" id="{d2c45e01-9005-4608-9044-e4780cef2eae}" />
 	<object class="GroupTrack" id="{5042ca31-7e6d-4eee-8e9c-4cc18e8d4c2f}">

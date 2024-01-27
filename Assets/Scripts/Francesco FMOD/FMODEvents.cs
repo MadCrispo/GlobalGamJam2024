@@ -16,6 +16,8 @@ public class FMODEvents : MonoBehaviour
     public EventInstance music;
     //Tutti gli ambienti saranno gestiti dai paramteri in FMOD
     public EventInstance ambienceSFX;
+    //Suono in loop del carrello
+    public EventInstance carrelloSFX;
 
     private void Awake()
     {
@@ -36,7 +38,8 @@ public class FMODEvents : MonoBehaviour
         //creazione delle instance FMOD (loop)
         music = FMODUnity.RuntimeManager.CreateInstance("event:/Music/Music");
         ambienceSFX = FMODUnity.RuntimeManager.CreateInstance("event:/SFXs/Ambiente/Supermercato");
-
+        carrelloSFX = FMODUnity.RuntimeManager.CreateInstance("event:/SFXs/Ambiente/Supermercato");
+        //il carrello parte da altro script
         music.start();
         ambienceSFX.start();
     }
@@ -60,6 +63,26 @@ public class FMODEvents : MonoBehaviour
         //{
         //    music.setParameterByName("MusicTransition", 0);
         //}
+    }
+
+    public void MusicToMenu()
+    {
+        music.setParameterByName("MusicTransition", 0);
+    }
+
+    public void MusicToStart()
+    {
+        music.setParameterByName("MusicTransition", 1);
+    }
+
+    public void MusicToEnding()
+    {
+        music.setParameterByName("MusicTransition", 2);
+    }
+
+    public void MusicToDefeat()
+    {
+        music.setParameterByName("MusicTransition", 3);
     }
 
     //effetto cutoff filtro dai parametri in FMOD (per stati pause e morte)
