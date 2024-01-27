@@ -29,9 +29,9 @@ public class TargetScripts : MonoBehaviour
     {
         if (gameObject.CompareTag("Player"))
         {
-            Debug.Log("Tocco i palazzi");
-            Destroy(gameObject);
             gameManager.UpdateScore(pointValue);
+            Destroy(gameObject);
+            
         }
     }
 }

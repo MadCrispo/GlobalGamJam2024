@@ -11,7 +11,7 @@ public class ScoreManager : MonoBehaviour
     public TextMeshProUGUI scoreText;
     public int score;
     public static ScoreManager instance;
-    public int pointValue;
+    
 
     private void Awake()
     {
@@ -22,7 +22,7 @@ public class ScoreManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        UpdateScore(0);
     }
 
     // Update is called once per frame
