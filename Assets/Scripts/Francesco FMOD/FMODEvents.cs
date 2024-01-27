@@ -38,7 +38,7 @@ public class FMODEvents : MonoBehaviour
         //creazione delle instance FMOD (loop)
         music = FMODUnity.RuntimeManager.CreateInstance("event:/Music/Music");
         ambienceSFX = FMODUnity.RuntimeManager.CreateInstance("event:/SFXs/Ambiente/Supermercato");
-        carrelloSFX = FMODUnity.RuntimeManager.CreateInstance("event:/SFXs/Ambiente/Supermercato");
+        carrelloSFX = FMODUnity.RuntimeManager.CreateInstance("event:/SFXs/Player/CarrelloSpesa");
         //il carrello parte da altro script
         music.start();
         ambienceSFX.start();
