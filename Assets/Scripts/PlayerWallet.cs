@@ -11,8 +11,11 @@ public class PlayerWallet : MonoBehaviour
     public List<int> Prezzi=new List<int>();
     public int Soldi=100;
     public TMPro.TextMeshProUGUI listavisibilespesa;
+    public TMPro.TextMeshProUGUI Portafoglio;
     public static List<PlayerWallet> allplayers;
     public InventoryItems inventory;
+    public GameObject Carrello;
+    public List<GameObject> positions= new List<GameObject>();
     private void Awake()
     {
         if (allplayers == null)
@@ -29,7 +32,18 @@ public class PlayerWallet : MonoBehaviour
         }
 
     }
-
+    public void AddToCart(Products item)
+    {
+        foreach (GameObject p in positions)
+        {
+            if (p.transform.childCount == 0)
+            {
+               GameObject g = Instantiate(inventory.Prefabs[(int)item],p.transform);
+                g.transform.localPosition = Vector3.zero;
+                return;
+            }
+        }
+    }
     private void Start()
     {
         Debug.Log("cosa");

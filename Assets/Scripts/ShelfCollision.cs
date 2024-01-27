@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class ShelfCollision : MonoBehaviour
@@ -7,6 +8,7 @@ public class ShelfCollision : MonoBehaviour
 
     // The particle system reference
     public ParticleSystem collisionParticles;
+    public List<GameObject> itemstoremove;
 
     private void Start()
     {
@@ -24,6 +26,9 @@ public class ShelfCollision : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        if (!Gamemanager.CanBuy)
+            return;
+
         PlayerWallet wallet = collision.gameObject.GetComponentInParent<PlayerWallet>();
         Debug.Log("Owner collided with a Cart!");
 
@@ -38,20 +43,28 @@ public class ShelfCollision : MonoBehaviour
             // Particles start
             collisionParticles.Play();
         }
-
+        if (product == Products.noSpecial)
+            return;
 
         if (numItem > 0)
         {
             numItem--;
             wallet?.BuyStuff(product);
 
-            if (product !=  Products.noSpecial)
-                wallet.inventory.AddSpecialIcon(product);
-            else
-                wallet.inventory.AddItem(product);
+            //if (product != Products.noSpecial)
+            //    wallet.inventory.AddSpecialIcon(product);
+            //else
+            //    wallet.inventory.AddItem(product);
 
             if (!wallet.CanIBuyIt(product))
                 Debug.Log("Lose event");
+
+            wallet.AddToCart(product);
+            foreach (GameObject item in itemstoremove)
+            {
+                if (item != null)
+                    Destroy(item);
+            }
         }
     }
 }

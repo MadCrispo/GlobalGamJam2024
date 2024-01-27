@@ -6,9 +6,9 @@ using UnityEngine;
 public class ZoneEffect : MonoBehaviour
 {
     private Rigidbody rb;
-    private PlayerMovement movement;
-    public float decelerationOrtofrutta = 0.2f;
-  //  public float accelerationSurgelati = 3f;
+
+    public float decelerationOrtofrutta = 0.05f;
+    public float accelerationSurgelati = 3f;
 
     public Zone zona = Zone.Surgelati;
     
@@ -20,7 +20,7 @@ public class ZoneEffect : MonoBehaviour
         switch ((int)zona)
         {
             case (int)Zone.Surgelati:
-              //  rb.velocity += accelerationSurgelati * rb.velocity;
+                rb.velocity += accelerationSurgelati * rb.velocity;
                 break;
             case (int)Zone.Ortofrutta:
                 rb.velocity -= decelerationOrtofrutta * rb.velocity;
@@ -31,12 +31,10 @@ public class ZoneEffect : MonoBehaviour
     {
         Debug.Log("Enter");
         rb = other.GetComponentInParent<Rigidbody>();
-        movement = other.GetComponentInParent<PlayerMovement>();
-
         switch ((int)zona)
         {
             case (int)Zone.Surgelati:
-                movement.moveSpeed *= 2f;
+                rb.velocity += accelerationSurgelati * rb.velocity;
                 break;
             case (int)Zone.Ortofrutta:
                 rb.velocity -= decelerationOrtofrutta * rb.velocity;
@@ -47,12 +45,10 @@ public class ZoneEffect : MonoBehaviour
     {
         Debug.Log("Enter");
         rb = other.GetComponentInParent<Rigidbody>();
-        movement = other.GetComponentInParent<PlayerMovement>();
-
         switch ((int)zona)
         {
             case (int)Zone.Surgelati:
-                movement.moveSpeed /= 2f;
+                //rb.velocity += accelerationSurgelati * rb.velocity;
                 break;
             case (int)Zone.Ortofrutta:
                 //rb.velocity -= decelerationOrtofrutta * rb.velocity;

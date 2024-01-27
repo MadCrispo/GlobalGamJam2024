@@ -8,6 +8,7 @@ public class InventoryItems : MonoBehaviour
     public Image [] empitySlots;
     public Image  SpecialSlot;
     public Sprite empityIcon;
+    public GameObject[] Prefabs;
     public Sprite[] icons;
     public static List<int> allProducts = new List<int>();
     
@@ -72,5 +73,7 @@ public class InventoryItems : MonoBehaviour
 }
 public enum Products
 {
-   noSpecial=0, bread=1, cheese=2,beans=3,banana=4,spinach=5,nutella=6,wine=7,panettone=9, onion=10
+   noSpecial=0, bread=1, cheese=2,beans=3,banana=4,spinach=5,nutella=6,wine=7
+        ,pandoro=9, onion=10,apple=11,pear=12,fish=13,frozen=14,
+    sausage=15,marmalade=16,pasta=17,flour=18,sugar=19,milk=20
 }
