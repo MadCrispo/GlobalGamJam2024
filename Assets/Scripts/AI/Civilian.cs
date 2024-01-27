@@ -14,8 +14,8 @@ public class Civilian : MonoBehaviour
     protected virtual void LateUpdate()
     {
         
-        agent.SetDestination(newDestination.position);
-        agent.gameObject.transform.forward = newDestination.position;
+        agent.SetDestination(new Vector3(newDestination.position.x,1,newDestination.position.z));
+        
         
     }
 
