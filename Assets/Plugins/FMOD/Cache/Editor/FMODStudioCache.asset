@@ -177,10 +177,10 @@ MonoBehaviour:
   Path: FMODProject/NeedForSpesaProject/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638419815704653492
+  lastModified: 638419827954804465
   FileSizes:
   - Name: Desktop
-    Value: 7531296
+    Value: 7992032
   Exists: 1
 --- !u!114 &-4616766668786296192
 MonoBehaviour:
@@ -224,10 +224,10 @@ MonoBehaviour:
   Path: FMODProject/NeedForSpesaProject/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638419699557998884
+  lastModified: 638419827954824623
   FileSizes:
   - Name: Desktop
-    Value: 1798
+    Value: 1838
   Exists: 1
 --- !u!114 &-2859072535058352755
 MonoBehaviour:
@@ -394,12 +394,13 @@ MonoBehaviour:
   - {fileID: -5515806418876082970}
   - {fileID: -162372468565499556}
   - {fileID: -8446920346958450506}
+  - {fileID: 5785933483442442049}
   EditorParameters: []
   MasterBanks:
   - {fileID: -5156724063357657922}
   StringsBanks:
   - {fileID: -3245492138578764399}
-  cacheTime: 638419815704653492
+  cacheTime: 638419827954824623
   cacheVersion: 131616
 --- !u!114 &2201884439364553433
 MonoBehaviour:
@@ -428,7 +429,7 @@ MonoBehaviour:
   - {fileID: -1757293585772689508}
   MinDistance: 1
   MaxDistance: 20
-  Length: 181440
+  Length: 170320
 --- !u!114 &4437687074022882831
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -483,6 +484,33 @@ MonoBehaviour:
   MinDistance: 35
   MaxDistance: 75
   Length: 0
+--- !u!114 &5785933483442442049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFXs/Ambiente/Frigo(3D)
+  m_EditorClassIdentifier: 
+  Path: event:/SFXs/Ambiente/Frigo(3D)
+  Guid:
+    Data1: 491799043
+    Data2: 1273062733
+    Data3: 998649742
+    Data4: 1959069404
+  Banks:
+  - {fileID: -5156724063357657922}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 20813
 --- !u!114 &6398230374683431437
 MonoBehaviour:
   m_ObjectHideFlags: 0
