@@ -2,12 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
     [Header("Movement")]
     public float moveSpeed;
     public float timetoMax = 2.5f;
+    public float timetobreak = 2.5f;
     public float timetoZero = 2.5f;
 
     public float groundDrag;
@@ -33,11 +35,12 @@ public class PlayerMovement : MonoBehaviour
     float verticalInput;
 
     float accel;
+    float breaking;
     float decel;
     float forward;
 
     Vector3 moveDirection;
-
+    Vector2 axis;
     Rigidbody rb;
 
     public TextMeshProUGUI text_speed;
@@ -50,6 +53,7 @@ public class PlayerMovement : MonoBehaviour
         readyToJump = true;
 
         accel = moveSpeed / timetoMax;
+        breaking = moveSpeed / timetobreak;
         decel = -moveSpeed / timetoZero;
 
         forward = 0f;
@@ -77,36 +81,43 @@ public class PlayerMovement : MonoBehaviour
 
     private void MyInput()
     {
-        horizontalInput = Input.GetAxisRaw("Horizontal");
-        verticalInput = Input.GetAxisRaw("Vertical");
+        horizontalInput = axis.x;
+        verticalInput = axis.y;
     }
 
     private void MovePlayer()
     {
-        if (verticalInput != 0)
+        if (verticalInput > 0)
         {
             forward += verticalInput * accel * Time.deltaTime;
             forward = Mathf.Min(forward, moveSpeed);
         }
-
+        else if (verticalInput < 0)
+        {
+            forward += verticalInput * breaking * Time.deltaTime;
+            forward = Mathf.Max(forward, 0);
+        }
         forward += decel * Time.deltaTime;
         forward = Mathf.Max(forward, 0);
 
+        //Debug.LogError(verticalInput);
         // calculate movement direction
         moveDirection = orientation.forward + orientation.right * horizontalInput;
 
         // on ground
         if (grounded)
         {
-            // rb.velocity = moveDirection * forward;
+            //rb.velocity = moveDirection * forward;
             rb.AddForce(moveDirection.normalized * forward * 10f, ForceMode.Force);
         }
-        text_speed.SetText("Speed: " + rb.velocity.magnitude);
         // in air
         //else if(!grounded)
         //    rb.AddForce(moveDirection.normalized * moveSpeed * 10f * airMultiplier, ForceMode.Force);
     }
-
+    public void SetMovement(InputAction.CallbackContext context)
+    {
+        axis = context.ReadValue<Vector2>();
+    }
     private void SpeedControl()
     {
         Vector3 flatVel = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
@@ -122,4 +133,5 @@ public class PlayerMovement : MonoBehaviour
         //Debug.Log("Speed: " + flatVel.magnitude);
     }
 
+    
 }

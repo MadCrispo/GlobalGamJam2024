@@ -40,11 +40,18 @@ public class ShelfCollision : MonoBehaviour
         }
 
 
-        if (numItem > 0 && PlayerWallet.instance.CanIBuyIt(product))
+        if (numItem > 0)
         {
             numItem--;
             PlayerWallet.instance.BuyStuff(product);
-            InventoryItems.AddItem(product);
+
+            if (product == Products.banana)
+                InventoryItems.instance.AddSpecialIcon(product);
+            else
+                InventoryItems.instance.AddItem(product);
+
+            if (!PlayerWallet.instance.CanIBuyIt(product))
+                Debug.Log("Lose event");
         }
     }
 }

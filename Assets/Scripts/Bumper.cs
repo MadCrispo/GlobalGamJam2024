@@ -5,9 +5,7 @@ using UnityEngine;
 public class Bumper : MonoBehaviour
 {
     public float NoBumptime = 5f;
-    
-    public float bounceforce=100;
-    bool  routine;
+    bool routine;
 
     public IEnumerator WaitForRebump()
     {
@@ -19,9 +17,10 @@ public class Bumper : MonoBehaviour
     {
         if (!routine)
         {
+            Vector3 collisionForce = collision.impulse / Time.fixedDeltaTime;
             StartCoroutine(WaitForRebump());
-            Debug.Log("collision");
-            collision.rigidbody.AddExplosionForce(bounceforce, collision.contacts[0].point, 5);
+            //Debug.Log("collision "+ collisionForce.magnitude);
+            collision.rigidbody.AddExplosionForce(collisionForce.magnitude, collision.contacts[0].point, 5);
         }
     }
 

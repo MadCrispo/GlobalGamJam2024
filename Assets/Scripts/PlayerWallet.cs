@@ -20,28 +20,38 @@ public class PlayerWallet : MonoBehaviour
         {
             listaProdotti.Add(Prodotti[x],Prezzi[x]);
         }
+
+        listavisibilespesa = FindAnyObjectByType<TMPro.TextMeshProUGUI>();
+    }
+
+    private void Start()
+    {
         WriteList();
     }
 
     public void WriteList()
     {
-        listavisibilespesa.text = "";
+        listavisibilespesa.text = "Lista della spesa\n";
         foreach (Products p in listaspesa)
         {
-            listavisibilespesa.text +=  p.ToString() + "\n";
+            if(InventoryItems.allProducts[(int)p]>0)
+                listavisibilespesa.text += "<s> "+ p.ToString() + " </s>\n";
+            else
+                listavisibilespesa.text +=  p.ToString() + "\n";
         }
     }
+    public bool CheckMoney()
+    {
+        return (Soldi  < 0);
+    }
+
     public bool CanIBuyIt(Products prodotto)
     {
         return (Soldi - listaProdotti[prodotto] > 0);
     }
     public void BuyStuff(Products prodotto)
     {
-        if (CanIBuyIt(prodotto))
-        {
-            Soldi -= listaProdotti[prodotto];
-            listaspesa.Remove(prodotto);
-            WriteList();
-        }
+        Soldi -= listaProdotti[prodotto];
+        WriteList();
     }
 }

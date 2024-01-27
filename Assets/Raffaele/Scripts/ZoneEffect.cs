@@ -41,5 +41,19 @@ public class ZoneEffect : MonoBehaviour
                 break;
         }
     }
+    private void OnTriggerExit(Collider other)
+    {
+        Debug.Log("Enter");
+        rb = other.GetComponentInParent<Rigidbody>();
+        switch ((int)zona)
+        {
+            case (int)Zone.Surgelati:
+                //rb.velocity += accelerationSurgelati * rb.velocity;
+                break;
+            case (int)Zone.Ortofrutta:
+                //rb.velocity -= decelerationOrtofrutta * rb.velocity;
+                break;
+        }
+    }
 }
 public enum Zone { Surgelati=0,Ortofrutta=1 }

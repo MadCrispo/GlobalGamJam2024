@@ -32,7 +32,7 @@ public partial class @InputSystemAsset: IInputActionCollection2, IDisposable
                     ""type"": ""Value"",
                     ""id"": ""20c23aac-ef15-4602-a15c-da2ae7705a4b"",
                     ""expectedControlType"": ""Vector2"",
-                    ""processors"": ""StickDeadzone,InvertVector2"",
+                    ""processors"": ""StickDeadzone,InvertVector2(invertX=false)"",
                     ""interactions"": """",
                     ""initialStateCheck"": true
                 },

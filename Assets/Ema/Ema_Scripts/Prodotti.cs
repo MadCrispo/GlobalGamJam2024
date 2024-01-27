@@ -8,8 +8,6 @@ public class Prodotti : MonoBehaviour
     public int number;
     public bool cheese;
     public bool bread;
-
-
     public Products product;
 
     void Start()
@@ -57,7 +55,7 @@ public class Prodotti : MonoBehaviour
     }
     void DisplayIcons()
     {
-        InventoryItems.newIcon = number;
-        InventoryItems.iconUpdate = true;
+       //InventoryItems.newIcon = number;
+       //InventoryItems.iconUpdate = true;
     }
 }

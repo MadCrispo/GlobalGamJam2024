@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerCam : MonoBehaviour
 {
+    
     public float sensX;
     public float sensY;
 
@@ -11,18 +13,21 @@ public class PlayerCam : MonoBehaviour
 
     float xRotation;
     float yRotation;
-
+    Vector2 axis;
     private void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
-
+    public void SetCameraMovement(InputAction.CallbackContext context)
+    {
+        axis = context.ReadValue<Vector2>();
+    }
     private void Update()
     {
         // get mouse input
-        float mouseX = Input.GetAxisRaw("Mouse X") * Time.deltaTime * sensX;
-        float mouseY = Input.GetAxisRaw("Mouse Y") * Time.deltaTime * sensY;
+        float mouseX = axis.x * Time.deltaTime * sensX;
+        float mouseY = axis.y * Time.deltaTime * sensY;
 
         yRotation += mouseX;
 

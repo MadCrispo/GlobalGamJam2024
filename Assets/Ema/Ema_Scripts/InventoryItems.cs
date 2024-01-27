@@ -6,59 +6,32 @@ using UnityEngine.UI;
 public class InventoryItems : MonoBehaviour
 {
     public Image [] empitySlots;
+    public Image  SpecialSlot;
     public Sprite empityIcon;
-    public static int newIcon = 0;
-    public static bool iconUpdate = false;
     public Sprite[] icons;
-    public int max;
-    public static int bread = 0;
-    public static int cheese= 0;
     public static List<int> allProducts = new List<int>();
 
     public static InventoryItems instance;
-
+    public Products special { get; set; }
     private void Awake()
     {
         if (instance == null)
             instance = this;
-    }
 
-    void Start()
-    {
-        max = empitySlots.Length;
-        bread = 0;
-        cheese = 0;
-        for (int x=0;x<20;x++)
+        for (int x = 0; x < 20; x++)
         {
             allProducts.Add(0);
         }
     }
-
-    // Update is called once per frame
-    //void Update()
-    //{
-    //    if (iconUpdate == true)
-    //    {
-    //        for (int i = 0; i < max; i++)
-    //        {
-    //            if (empitySlots[i].sprite == empityIcon)
-    //            {
-    //                max = i;
-    //                empitySlots[i].sprite = icons[newIcon];
-    //                //empitySlots[i].transform.gameObject.GetComponent<HintMessage>().ObjectType = newIcon;
-    //
-    //            }
-    //        }
-    //        StartCoroutine(Reset());
-    //    }
-    //}
-
-    //IEnumerator Reset()
-    //{ 
-    //  yield return new WaitForSeconds(1);
-    //    iconUpdate = false;
-    //    max = empitySlots.Length;
-    //}
+    public void AddSpecialIcon(Products product)
+    {
+        if (SpecialSlot.sprite == empityIcon)
+        {
+            SpecialSlot.sprite = icons[(int)product];
+            special = product;
+            return;
+        }
+    }
 
     public void AddIcon(Products product)
     {
@@ -82,13 +55,13 @@ public class InventoryItems : MonoBehaviour
             }
         }
     }
-    public static void AddItem(Products product)
+    public  void AddItem(Products product)
     {
         allProducts[(int)product]++;
         instance.AddIcon(product);
     }
 
-    public static void UseItem(Products product)
+    public  void UseItem(Products product)
     {
         if(allProducts[(int)product]>0)
             allProducts[(int)product]--;
@@ -96,8 +69,12 @@ public class InventoryItems : MonoBehaviour
         if (allProducts[(int)product] == 0)
             instance.EmptyIcon(product);
     }
+    public void UseSpecialItem()
+    {
+        SpecialSlot.sprite = empityIcon;
+    }
 }
 public enum Products
 {
-    bread=1, cheese=2
+   noSpecial=0, bread=1, cheese=2,beans=3,banana=4,spinach=5,nutella=6,wine=7,panettone=9
 }
