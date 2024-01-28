@@ -15,6 +15,8 @@ GameObject:
   - component: {fileID: 2905048918615325468}
   - component: {fileID: 3222437952759223554}
   - component: {fileID: 4658582328387628805}
+  - component: {fileID: 7281369776252137113}
+  - component: {fileID: 6171597641668301657}
   m_Layer: 0
   m_Name: NPC_Civilian
   m_TagString: Untagged
@@ -173,3 +175,46 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 1
+--- !u!114 &7281369776252137113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8539577611041739103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1762917554
+      Data2: 1175849015
+      Data3: 1636654777
+      Data4: -297905785
+    Path: event:/SFXs/NPCs/NPCs(3D)
+  Event: 
+  PlayEvent: 0
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 45
+--- !u!114 &6171597641668301657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8539577611041739103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38c75c6abd1188446afce1c6f59432db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
