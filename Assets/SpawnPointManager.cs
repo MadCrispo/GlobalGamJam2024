@@ -15,7 +15,7 @@ public class SpawnPointManager : MonoBehaviour
         if (instance == null)
             instance = this;
         spawner = FindAnyObjectByType<PlayerInputManager>();
-
+        occupied = new bool[2];
     }
     public void Spawner_onPlayerJoined(PlayerInput obj)
     {
@@ -49,6 +49,7 @@ public class SpawnPointManager : MonoBehaviour
                 i++;
             }
         }
+        obj.GetComponentInParent<PlayerWallet>().granmas[i].SetActive(true) ;
         Gamemanager.CanBuy = true;
     }
 

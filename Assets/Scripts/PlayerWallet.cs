@@ -10,12 +10,14 @@ public class PlayerWallet : MonoBehaviour
     public List<Products> Prodotti=new List<Products>();
     public List<int> Prezzi=new List<int>();
     public int Soldi=100;
-    public TMPro.TextMeshProUGUI listavisibilespesa;
+    public TMPro.TextMeshProUGUI listavisibilespesa,nextspesa;
     public TMPro.TextMeshProUGUI Portafoglio;
     public static List<PlayerWallet> allplayers;
     public InventoryItems inventory;
     public GameObject Carrello;
     public List<GameObject> positions= new List<GameObject>();
+    public int id = 0;
+    public GameObject[] granmas;
     private void Awake()
     {
         if (allplayers == null)
@@ -44,12 +46,37 @@ public class PlayerWallet : MonoBehaviour
             }
         }
     }
-    private void Start()
-    {
-        Debug.Log("cosa");
-        WriteList();
-    }
+   
 
+    private void Update()
+    {
+        Portafoglio.text = Soldi+"$";
+        WriteCurrent();
+        WriteNextCurrent();
+    }
+    public bool IsNextProduct(Products p)
+    {
+        if (listaspesa[id] == p)
+        {
+            id++;
+            return true;
+        }
+
+        return false;
+    }
+    public void WriteCurrent()
+    {
+        if (id == listaspesa.Count)
+            return;
+        listavisibilespesa.text = listaspesa[id].ToString();
+    }
+    public void WriteNextCurrent()
+    {
+        if (id < listaspesa.Count - 1)
+            nextspesa.text = listaspesa[id + 1].ToString();
+        else
+            nextspesa.text = "";
+    }
     public void WriteList()
     {
         listavisibilespesa.text = "Lista della spesa\n";
@@ -73,6 +100,5 @@ public class PlayerWallet : MonoBehaviour
     public void BuyStuff(Products prodotto)
     {
         Soldi -= listaProdotti[prodotto];
-        WriteList();
     }
 }

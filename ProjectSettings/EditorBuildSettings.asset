@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Ema/Menu.unity
+    guid: d477204ab6be1f346a01a4b3e037a2f1
+  - enabled: 1
+    path: Assets/Scenes/Level Design/Nuovo Blockout.unity
+    guid: 3eff40cca14716c4c8dbb9ffcde5809e
   m_configObjects: {}

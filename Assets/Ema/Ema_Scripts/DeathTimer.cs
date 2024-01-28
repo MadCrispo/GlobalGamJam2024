@@ -46,11 +46,11 @@ public class DeathTimer : MonoBehaviour
 
     void countDownTimer()
     {
-        if (countDownStartValue > 0)
+        if (death > 0)
         {
             TimeSpan spanTime = TimeSpan.FromSeconds(countDownStartValue);
-            Timetext.text = "Timer : " + spanTime.Minutes + " : " + spanTime.Seconds;
-            countDownStartValue--;
+            Timetext.text = "Timer : " +(int)death;
+            death--;
             Invoke("countDownTimer", 1.0f);
         }
         else

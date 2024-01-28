@@ -7,6 +7,8 @@ public class UIManager : MonoBehaviour
 {
     public void LoadScene(int Level)
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene(Level,LoadSceneMode.Single);
     }
+
 }

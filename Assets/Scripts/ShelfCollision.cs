@@ -49,15 +49,23 @@ public class ShelfCollision : MonoBehaviour
         if (numItem > 0)
         {
             numItem--;
+            if (wallet.IsNextProduct(product))
+            {
+                if (wallet.id == wallet.listaspesa.Count)
+                {
+                    Gamemanager.instance.WinGame.Invoke();
+                }
+            }
+
             wallet?.BuyStuff(product);
 
             //if (product != Products.noSpecial)
             //    wallet.inventory.AddSpecialIcon(product);
             //else
             //    wallet.inventory.AddItem(product);
-
             if (!wallet.CanIBuyIt(product))
-                Debug.Log("Lose event");
+                Gamemanager.instance.LoseGame.Invoke();
+
 
             wallet.AddToCart(product);
             foreach (GameObject item in itemstoremove)

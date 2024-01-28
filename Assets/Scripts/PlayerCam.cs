@@ -16,8 +16,8 @@ public class PlayerCam : MonoBehaviour
     Vector2 axis;
     private void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        //Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.visible = false;
     }
     public void SetCameraMovement(InputAction.CallbackContext context)
     {
