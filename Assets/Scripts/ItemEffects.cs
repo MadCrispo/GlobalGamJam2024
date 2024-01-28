@@ -10,7 +10,7 @@ public class ItemEffects:MonoBehaviour
     Rigidbody playerRb;
  
     private bool isSpinachEffect = false;
-    private float spinachForce = 5000f;
+    private float spinachForce = 50f;
 
     Prodotti products;
 
@@ -151,8 +151,8 @@ public class ItemEffects:MonoBehaviour
         {
             Debug.Log("Collided with explosive force");
             Vector3 collisionForce = collision.impulse / Time.fixedDeltaTime;
-          //  playerRb.AddExplosionForce(collisionForce.magnitude * spinachForce, collision.contacts[0].point, 5);
-            playerRb.AddForce(collision.impulse, ForceMode.Impulse);
+            playerRb.AddExplosionForce(collisionForce.magnitude * spinachForce, collision.contacts[0].point, 5);
+           // playerRb.AddForce(collision.impulse, ForceMode.Impulse);
         }
     }
 
