@@ -73,5 +73,5 @@ public class InventoryItems : MonoBehaviour
 }
 public enum Products
 {
-   noSpecial,banana,cookies,cookiesdark,cipolla,fagioli,latte,meat,mela,nutella,orange,pomodoro,pastalune,spaghetti,pastauovo,pesce,pomodori,salsiccia,spinaci,vino
+   noSpecial,banana,cookies,cookiesdark,cipolla,fagioli,latte,meat,mela,nutella,orange,pomodoro,pastalune,spaghetti,pastauovo,pesce,pomodori,salsiccia,spinaci,vino,pandoro
 }

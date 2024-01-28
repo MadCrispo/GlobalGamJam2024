@@ -20,6 +20,7 @@ public class PlayerWallet : MonoBehaviour
     public int id = 0;
     public GameObject[] granmas;
     public TextMeshProUGUI Messggio;
+    public List<Products> Prodottis;
     private void Awake()
     {
         if (allplayers == null)
@@ -43,15 +44,15 @@ public class PlayerWallet : MonoBehaviour
             {
                 if (listaspesa.Count == 6)
                     return;
-                if ((Products)x != Products.noSpecial || (Products)x != Products.nutella)
+                if ((Products)x != Products.noSpecial && !listaspesa.Contains((Products)x))
                 {
                     listaspesa.Add((Products)x);
+                    Debug.Log(((Products)x).ToString());
                 }
                 x = Random.Range(0, Prodotti.Count);
             }
 
         }
-
     }
     public void AddToCart(Products item)
     {

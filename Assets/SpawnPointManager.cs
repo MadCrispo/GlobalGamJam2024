@@ -39,7 +39,7 @@ public class SpawnPointManager : MonoBehaviour
             yield return null;
             spawner.JoinPlayer(id, id, null, gamepad);
             id++;
-            yield return new WaitUntil(() => Gamemanager.CanBuy == false);
+            yield return new WaitForSeconds(2);
         }
         if (id < 2)
         {

@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/Ema/Menu.unity
     guid: d477204ab6be1f346a01a4b3e037a2f1
   - enabled: 1
-    path: Assets/Scenes/Level Design/Livello con Mesh Copiato.unity
-    guid: 5c25987f822ac994da40919e4a50aa11
+    path: Assets/Scenes/Level Design/Livello con Mesh 1.unity
+    guid: 5a8d520ef4c84da46bb8718837dac8f7
   m_configObjects: {}
