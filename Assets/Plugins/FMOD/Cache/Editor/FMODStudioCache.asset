@@ -177,10 +177,10 @@ MonoBehaviour:
   Path: FMODProject/NeedForSpesaProject/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638420048622742034
+  lastModified: 638420430126557144
   FileSizes:
   - Name: Desktop
-    Value: 7992032
+    Value: 7992160
   Exists: 1
 --- !u!114 &-4616766668786296192
 MonoBehaviour:
@@ -224,7 +224,7 @@ MonoBehaviour:
   Path: FMODProject/NeedForSpesaProject/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638420048622752005
+  lastModified: 638419945300835629
   FileSizes:
   - Name: Desktop
     Value: 1838
@@ -400,7 +400,7 @@ MonoBehaviour:
   - {fileID: -5156724063357657922}
   StringsBanks:
   - {fileID: -3245492138578764399}
-  cacheTime: 638420048622752005
+  cacheTime: 638420430126557144
   cacheVersion: 131616
 --- !u!114 &2201884439364553433
 MonoBehaviour:
@@ -482,7 +482,7 @@ MonoBehaviour:
   IsOneShot: 1
   Parameters: []
   MinDistance: 35
-  MaxDistance: 75
+  MaxDistance: 85
   Length: 0
 --- !u!114 &5785933483442442049
 MonoBehaviour:
@@ -509,7 +509,7 @@ MonoBehaviour:
   IsOneShot: 0
   Parameters: []
   MinDistance: 1
-  MaxDistance: 20
+  MaxDistance: 15
   Length: 20813
 --- !u!114 &6398230374683431437
 MonoBehaviour:

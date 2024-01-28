@@ -57,7 +57,7 @@ public class ItemEffects:MonoBehaviour
     public IEnumerator BananaEffect()
     {
         FMODUnity.RuntimeManager.PlayOneShot("event:/SFXs/Interagibili/Banana");
-        movement.SetTextEffect(true, "sei fuori controllo");
+        movement.SetTextEffect(true, "Stai perdendo il controllo !!!!");
         float oldvalue = cam.sensX;
         cam.sensX *= -1f;
 
@@ -78,10 +78,12 @@ public class ItemEffects:MonoBehaviour
     public IEnumerator BeansEffect()
     {
         FMODUnity.RuntimeManager.PlayOneShot("event:/SFXs/Interagibili/Fagioli");
+        movement.SetTextEffect(true, "TURBO SCUREGGIA ATTIVA!!!");
         movement.moveSpeed *= 2;
        
         yield return new WaitForSeconds(5f);
 
+        movement.SetTextEffect(false);
         movement.moveSpeed /= 2;
         
     }
@@ -89,10 +91,12 @@ public class ItemEffects:MonoBehaviour
     public IEnumerator SpinachEffect()
     {
         FMODUnity.RuntimeManager.PlayOneShot("event:/SFXs/Interagibili/Spinaci");
+        movement.SetTextEffect(true, "E' il momento della nonna spinacina! FORZA AUMENTATA!");
         isSpinachEffect = true;
       
         yield return new WaitForSeconds(20f);
 
+        movement.SetTextEffect(false);
         isSpinachEffect = false;
 
     }
@@ -100,10 +104,12 @@ public class ItemEffects:MonoBehaviour
     public IEnumerator NutellaEffect()
     {
         FMODUnity.RuntimeManager.PlayOneShot("event:/SFXs/Interagibili/Nutella");
+        movement.SetTextEffect(true, "Nobella lenta ma gustosa");
         movement.moveSpeed /= 3;
 
         yield return new WaitForSeconds(10f);
 
+        movement.SetTextEffect(false);
         movement.moveSpeed *= 3f;
 
     }
@@ -111,11 +117,13 @@ public class ItemEffects:MonoBehaviour
     public IEnumerator OnionEffect()
     {
         FMODUnity.RuntimeManager.PlayOneShot("event:/SFXs/Interagibili/Cipolle");
+        movement.SetTextEffect(true, "Se voi te posso canta na canzone");
         float originalSpeed = movement.moveSpeed;
         movement.moveSpeed = 0f;
 
         yield return new WaitForSeconds(5f);
 
+        movement.SetTextEffect(false);
         movement.moveSpeed = originalSpeed;
 
     }
@@ -124,11 +132,13 @@ public class ItemEffects:MonoBehaviour
     {
         FMODUnity.RuntimeManager.PlayOneShot("event:/SFXs/Interagibili/Vino");
         Quaternion originalRotation = cam.gameObject.transform.rotation;
+        movement.SetTextEffect(true, "Satto uriabco aivtto");
 
         cam.gameObject.transform.Rotate(0f, 2f * Time.deltaTime, 0f);
 
         yield return new WaitForSeconds(5f);
 
+        movement.SetTextEffect(false);
         cam.gameObject.transform.rotation = originalRotation;
 
     }
