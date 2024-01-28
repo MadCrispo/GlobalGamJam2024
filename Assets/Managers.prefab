@@ -247,7 +247,7 @@ MonoBehaviour:
   m_NotificationBehavior: 2
   m_MaxPlayerCount: -1
   m_AllowJoining: 1
-  m_JoinBehavior: 1
+  m_JoinBehavior: 2
   m_PlayerJoinedEvent:
     m_PersistentCalls:
       m_Calls:
@@ -301,6 +301,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   allcams: []
+  canvas: {fileID: 4345512245050699073}
+  caricamento: {fileID: 0}
 --- !u!1 &6462744335600857875
 GameObject:
   m_ObjectHideFlags: 0
@@ -506,15 +508,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2601920404419829542, guid: a17f18390a35021479269ecf47327b8e, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2601920404419829542, guid: a17f18390a35021479269ecf47327b8e, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2601920404419829542, guid: a17f18390a35021479269ecf47327b8e, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2601920404419829542, guid: a17f18390a35021479269ecf47327b8e, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -522,7 +524,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2601920404419829542, guid: a17f18390a35021479269ecf47327b8e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2601920404419829542, guid: a17f18390a35021479269ecf47327b8e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -552,6 +554,11 @@ PrefabInstance:
 --- !u!1 &2270725827578553292 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5480821849184961617, guid: a17f18390a35021479269ecf47327b8e, type: 3}
+  m_PrefabInstance: {fileID: 6020458884219627421}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4345512245050699073 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8053187272509098716, guid: a17f18390a35021479269ecf47327b8e, type: 3}
   m_PrefabInstance: {fileID: 6020458884219627421}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &6602325167019442269 stripped
