@@ -44,7 +44,13 @@ public class PlayerMovement : MonoBehaviour
     Rigidbody rb;
 
     public TextMeshProUGUI text_speed;
+    public TextMeshProUGUI text_efect;
 
+    public void SetTextEffect(bool value , string testo="")
+    {
+        text_efect.gameObject.SetActive(value);
+        text_efect.text = testo;
+    }
     private void Start()
     {
         rb = GetComponent<Rigidbody>();

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -18,6 +19,7 @@ public class PlayerWallet : MonoBehaviour
     public List<GameObject> positions= new List<GameObject>();
     public int id = 0;
     public GameObject[] granmas;
+    public TextMeshProUGUI Messggio;
     private void Awake()
     {
         if (allplayers == null)

@@ -7,21 +7,21 @@ public class ShelfCollision : MonoBehaviour
     public Products product = Products.banana;
 
     // The particle system reference
-    public ParticleSystem collisionParticles;
+    //public ParticleSystem collisionParticles;
     public List<GameObject> itemstoremove;
 
     private void Start()
     {
         // Is the particle system assigned?
-        if (collisionParticles == null)
-        {
-            Debug.LogError("Particle system not assigned. Please assign it in the Unity Editor.");
-        }
-        else
-        {
-            // At the start the particle system is off
-            collisionParticles.Stop();
-        }
+        //if (collisionParticles == null)
+        //{
+        //    Debug.LogError("Particle system not assigned. Please assign it in the Unity Editor.");
+        //}
+        //else
+        //{
+        //    // At the start the particle system is off
+        //    collisionParticles.Stop();
+        //}
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -32,17 +32,17 @@ public class ShelfCollision : MonoBehaviour
         PlayerWallet wallet = collision.gameObject.GetComponentInParent<PlayerWallet>();
         Debug.Log("Owner collided with a Cart!");
 
-        if (collisionParticles != null)
-        {
-            // The first Spoint of contact
-            ContactPoint contactPoint = collision.GetContact(0);
-
-            // Particles starts in the collision point
-            collisionParticles.transform.position = contactPoint.point;
-
-            // Particles start
-            collisionParticles.Play();
-        }
+        //if (collisionParticles != null)
+        //{
+        //    // The first Spoint of contact
+        //    ContactPoint contactPoint = collision.GetContact(0);
+        //
+        //    // Particles starts in the collision point
+        //    collisionParticles.transform.position = contactPoint.point;
+        //
+        //    // Particles start
+        //    collisionParticles.Play();
+        //}
         if (product == Products.noSpecial)
             return;
 
@@ -53,6 +53,8 @@ public class ShelfCollision : MonoBehaviour
             {
                 if (wallet.id == PlayerWallet.listaspesa.Count)
                 {
+                    int x = PlayerWallet.allplayers.IndexOf(wallet)+1;
+                    Gamemanager.instance.who.text = "Player" + x + " has won";
                     Gamemanager.instance.WinGame.Invoke();
                 }
             }

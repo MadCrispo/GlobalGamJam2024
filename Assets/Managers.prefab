@@ -44,6 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5d48e969f0c62f44a1b6f15afb632b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  who: {fileID: 5175843890393399224}
   WinGame:
     m_PersistentCalls:
       m_Calls:
@@ -542,6 +543,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CanvasTimer
       objectReference: {fileID: 0}
+    - target: {fileID: 8053187272509098716, guid: a17f18390a35021479269ecf47327b8e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8114682552274056509, guid: a17f18390a35021479269ecf47327b8e, type: 3}
       propertyPath: m_Color.a
       value: 0
@@ -561,6 +566,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8053187272509098716, guid: a17f18390a35021479269ecf47327b8e, type: 3}
   m_PrefabInstance: {fileID: 6020458884219627421}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &5175843890393399224 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1466130506076084261, guid: a17f18390a35021479269ecf47327b8e, type: 3}
+  m_PrefabInstance: {fileID: 6020458884219627421}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6602325167019442269 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 589088330437732288, guid: a17f18390a35021479269ecf47327b8e, type: 3}

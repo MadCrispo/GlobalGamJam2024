@@ -57,14 +57,14 @@ public class ItemEffects:MonoBehaviour
     public IEnumerator BananaEffect()
     {
         FMODUnity.RuntimeManager.PlayOneShot("event:/SFXs/Interagibili/Banana");
-
+        movement.SetTextEffect(true, "sei fuori controllo");
         float oldvalue = cam.sensX;
         cam.sensX *= -1f;
 
         yield return new WaitForSeconds(2f);
 
         cam.sensX = oldvalue;
-
+        movement.SetTextEffect(false);
         //float time = 0f;
 
         //while (time < 2f)

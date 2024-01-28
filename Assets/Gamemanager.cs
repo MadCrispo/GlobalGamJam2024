@@ -7,6 +7,7 @@ public class Gamemanager : MonoBehaviour
 {
     public static bool CanBuy = false;
     public static Gamemanager instance;
+    public  TMPro.TextMeshProUGUI who;
     private void Awake()
     {
         if (instance == null)   
