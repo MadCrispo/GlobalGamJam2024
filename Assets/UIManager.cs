@@ -10,5 +10,8 @@ public class UIManager : MonoBehaviour
         Time.timeScale = 1;
         SceneManager.LoadScene(Level,LoadSceneMode.Single);
     }
-
+    public void Quit()
+    {
+        Application.Quit();
+    }
 }

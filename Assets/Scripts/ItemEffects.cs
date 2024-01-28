@@ -21,23 +21,20 @@ public class ItemEffects:MonoBehaviour
         
         playerRb = GetComponent<Rigidbody>();
     }
-    public void ApplyItemEffect(InventoryItems inventory)
+    public void ApplyItemEffect(InventoryItems inventory, Products product)
     {
-        Products product = inventory.special;
-
         switch (product)
         {
             case Products.banana:
-                inventory.special = Products.noSpecial;
-                inventory.UseSpecialItem();
+                Debug.Log("banana effect");
                 StartCoroutine(BananaEffect());
                 break;
 
-            case Products.beans:
+            case Products.fagioli:
                 StartCoroutine(BeansEffect());
                 break;
 
-            case Products.spinach:
+            case Products.spinaci:
                 StartCoroutine(SpinachEffect());
                 break;
 
@@ -45,11 +42,11 @@ public class ItemEffects:MonoBehaviour
                 StartCoroutine(NutellaEffect());
                 break;
 
-            case Products.onion:
+            case Products.cipolla:
                 StartCoroutine(OnionEffect());
                 break;
 
-            case Products.wine:
+            case Products.vino:
                 StartCoroutine(WineEffect());
                 break;
 

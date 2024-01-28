@@ -27,15 +27,15 @@ public class PlayerCam : MonoBehaviour
     {
         // get mouse input
         float mouseX = axis.x * Time.deltaTime * sensX;
-        float mouseY = axis.y * Time.deltaTime * sensY;
+        //float mouseY = axis.y * Time.deltaTime * sensY;
 
         yRotation += mouseX;
 
-        xRotation -= mouseY;
-        xRotation = Mathf.Clamp(xRotation, -35f, 45f);
+        //xRotation -= mouseY;
+        //xRotation = Mathf.Clamp(xRotation, -35f, 45f);
 
         // rotate cam and orientation
-        transform.rotation = Quaternion.Euler(xRotation, yRotation, 0);
+        transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x, yRotation, 0);
         orientation.rotation = Quaternion.Euler(0, yRotation, 0);
     }
 }

@@ -4,7 +4,7 @@ using UnityEngine;
 public class ShelfCollision : MonoBehaviour
 {
     public int numItem = 1;
-    public Products product = Products.bread;
+    public Products product = Products.banana;
 
     // The particle system reference
     public ParticleSystem collisionParticles;
@@ -58,9 +58,9 @@ public class ShelfCollision : MonoBehaviour
             }
 
             wallet?.BuyStuff(product);
-
+            wallet.GetComponent<ItemEffects>().ApplyItemEffect(wallet.inventory,product);
             //if (product != Products.noSpecial)
-            //    wallet.inventory.AddSpecialIcon(product);
+            //   wallet.inventory.AddSpecialIcon(product);
             //else
             //    wallet.inventory.AddItem(product);
             if (!wallet.CanIBuyIt(product))
