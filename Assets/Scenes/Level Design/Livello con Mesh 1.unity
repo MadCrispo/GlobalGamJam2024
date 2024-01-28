@@ -333,6 +333,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8465923687104112545, guid: ecfa47917fa18d34ab480760dc859910, type: 3}
+      propertyPath: product
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8593208450173075119, guid: ecfa47917fa18d34ab480760dc859910, type: 3}
       propertyPath: m_Name
       value: Scaffale (5)
@@ -780,6 +784,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 263147111}
     m_Modifications:
+    - target: {fileID: 4584877607322914510, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
+      propertyPath: product
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7269506751144264769, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
       propertyPath: m_Name
       value: frigo_mezzo (8)
@@ -917,7 +925,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 82f91ad28b6528e4b98e6f3d590c6f9e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.304
+      value: 2.036
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 82f91ad28b6528e4b98e6f3d590c6f9e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1093,6 +1101,10 @@ PrefabInstance:
     - target: {fileID: 3175367686190033414, guid: 4f7c2aa3fae404644bf06297f8d26368, type: 3}
       propertyPath: m_Name
       value: Scaffale Ortofrutta
+      objectReference: {fileID: 0}
+    - target: {fileID: 5876812522808492032, guid: 4f7c2aa3fae404644bf06297f8d26368, type: 3}
+      propertyPath: product
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3404,6 +3416,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1652543385}
     m_Modifications:
+    - target: {fileID: 4584877607322914510, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
+      propertyPath: product
+      value: 19
+      objectReference: {fileID: 0}
     - target: {fileID: 7269506751144264769, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
       propertyPath: m_Name
       value: frigo_mezzo (7)
@@ -4012,6 +4028,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 995436447}
     m_Modifications:
+    - target: {fileID: 4584877607322914510, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
+      propertyPath: product
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7269506751144264769, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
       propertyPath: m_Name
       value: frigo_mezzo (1)
@@ -5101,6 +5121,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scaffale Ortofrutta (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5876812522808492032, guid: 4f7c2aa3fae404644bf06297f8d26368, type: 3}
+      propertyPath: product
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5265,6 +5289,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1652543385}
     m_Modifications:
+    - target: {fileID: 4584877607322914510, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
+      propertyPath: product
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7269506751144264769, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
       propertyPath: m_Name
       value: frigo_mezzo (2)
@@ -5384,6 +5412,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1186015997}
     m_Modifications:
+    - target: {fileID: 6011516371602260379, guid: aad734e37b13fd541b267dd73479334e, type: 3}
+      propertyPath: product
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8264941982170858392, guid: aad734e37b13fd541b267dd73479334e, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -5741,6 +5773,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scaffale Ortofrutta (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5876812522808492032, guid: 4f7c2aa3fae404644bf06297f8d26368, type: 3}
+      propertyPath: product
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5759,6 +5795,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1115925312}
     m_Modifications:
+    - target: {fileID: 4584877607322914510, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
+      propertyPath: product
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7269506751144264769, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
       propertyPath: m_Name
       value: frigo_mezzo (3)
@@ -5909,6 +5949,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1115925312}
     m_Modifications:
+    - target: {fileID: 5555185211753892871, guid: a629f6fb2a636ea42adec448ee2a2729, type: 3}
+      propertyPath: product
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7353051617164358372, guid: a629f6fb2a636ea42adec448ee2a2729, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.51
@@ -6031,6 +6075,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scaffale Ortofrutta (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5876812522808492032, guid: 4f7c2aa3fae404644bf06297f8d26368, type: 3}
+      propertyPath: product
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6152,6 +6200,10 @@ PrefabInstance:
     - target: {fileID: 3175367686190033414, guid: 4f7c2aa3fae404644bf06297f8d26368, type: 3}
       propertyPath: m_Name
       value: Scaffale Ortofrutta (08)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5876812522808492032, guid: 4f7c2aa3fae404644bf06297f8d26368, type: 3}
+      propertyPath: product
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8093,6 +8145,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scaffale Ortofrutta (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5876812522808492032, guid: 4f7c2aa3fae404644bf06297f8d26368, type: 3}
+      propertyPath: product
+      value: 11
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8589,6 +8645,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1652543385}
     m_Modifications:
+    - target: {fileID: 4584877607322914510, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
+      propertyPath: product
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7269506751144264769, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
       propertyPath: m_Name
       value: frigo_mezzo (10)
@@ -10019,7 +10079,7 @@ Transform:
   m_GameObject: {fileID: 361453146}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 7.42, y: 2.152, z: 60.256}
+  m_LocalPosition: {x: 7.42, y: 2.152, z: 60.270824}
   m_LocalScale: {x: 3.8339727, y: 1.8809977, z: 0.028777078}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10267,6 +10327,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1186015997}
     m_Modifications:
+    - target: {fileID: 6011516371602260379, guid: aad734e37b13fd541b267dd73479334e, type: 3}
+      propertyPath: product
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8264941982170858392, guid: aad734e37b13fd541b267dd73479334e, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.5
@@ -10714,6 +10778,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1115925312}
     m_Modifications:
+    - target: {fileID: 4584877607322914510, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
+      propertyPath: product
+      value: 19
+      objectReference: {fileID: 0}
     - target: {fileID: 7269506751144264769, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
       propertyPath: m_Name
       value: frigo_mezzo (8)
@@ -11097,6 +11165,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1652543385}
     m_Modifications:
+    - target: {fileID: 4584877607322914510, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
+      propertyPath: product
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7269506751144264769, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
       propertyPath: m_Name
       value: frigo_mezzo (1)
@@ -11238,6 +11310,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 995436447}
     m_Modifications:
+    - target: {fileID: 4584877607322914510, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
+      propertyPath: product
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7269506751144264769, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
       propertyPath: m_Name
       value: frigo_mezzo (3)
@@ -11314,11 +11390,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 82f91ad28b6528e4b98e6f3d590c6f9e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -19.285
+      value: -20.755
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 82f91ad28b6528e4b98e6f3d590c6f9e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.264
+      value: 2.683
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 82f91ad28b6528e4b98e6f3d590c6f9e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -12075,6 +12151,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1115925312}
     m_Modifications:
+    - target: {fileID: 4584877607322914510, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
+      propertyPath: product
+      value: 19
+      objectReference: {fileID: 0}
     - target: {fileID: 7269506751144264769, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
       propertyPath: m_Name
       value: frigo_mezzo (7)
@@ -12685,6 +12765,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1115925312}
     m_Modifications:
+    - target: {fileID: 4584877607322914510, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
+      propertyPath: product
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7269506751144264769, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
       propertyPath: m_Name
       value: frigo_mezzo (2)
@@ -12747,6 +12831,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1186015997}
     m_Modifications:
+    - target: {fileID: 6011516371602260379, guid: aad734e37b13fd541b267dd73479334e, type: 3}
+      propertyPath: product
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8264941982170858392, guid: aad734e37b13fd541b267dd73479334e, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.5
@@ -12892,6 +12980,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1652543385}
     m_Modifications:
+    - target: {fileID: 4584877607322914510, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
+      propertyPath: product
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7269506751144264769, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
       propertyPath: m_Name
       value: frigo_mezzo (8)
@@ -13123,6 +13215,10 @@ PrefabInstance:
     - target: {fileID: 2930118056521347252, guid: ecfa47917fa18d34ab480760dc859910, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8465923687104112545, guid: ecfa47917fa18d34ab480760dc859910, type: 3}
+      propertyPath: product
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8593208450173075119, guid: ecfa47917fa18d34ab480760dc859910, type: 3}
       propertyPath: m_Name
@@ -15091,6 +15187,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 231732296}
     m_Modifications:
+    - target: {fileID: 5555185211753892871, guid: a629f6fb2a636ea42adec448ee2a2729, type: 3}
+      propertyPath: product
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7353051617164358372, guid: a629f6fb2a636ea42adec448ee2a2729, type: 3}
       propertyPath: m_LocalScale.x
       value: -1
@@ -16018,6 +16118,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scaffale Ortofrutta (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5876812522808492032, guid: 4f7c2aa3fae404644bf06297f8d26368, type: 3}
+      propertyPath: product
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16100,6 +16204,10 @@ PrefabInstance:
     - target: {fileID: 3175367686190033414, guid: 4f7c2aa3fae404644bf06297f8d26368, type: 3}
       propertyPath: m_Name
       value: Scaffale Ortofrutta
+      objectReference: {fileID: 0}
+    - target: {fileID: 5876812522808492032, guid: 4f7c2aa3fae404644bf06297f8d26368, type: 3}
+      propertyPath: product
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16384,6 +16492,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8465923687104112545, guid: ecfa47917fa18d34ab480760dc859910, type: 3}
+      propertyPath: product
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8593208450173075119, guid: ecfa47917fa18d34ab480760dc859910, type: 3}
       propertyPath: m_Name
       value: Scaffale (4)
@@ -16603,6 +16715,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8465923687104112545, guid: ecfa47917fa18d34ab480760dc859910, type: 3}
+      propertyPath: product
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8593208450173075119, guid: ecfa47917fa18d34ab480760dc859910, type: 3}
       propertyPath: m_Name
       value: Scaffale (30)
@@ -16731,6 +16847,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1652543385}
     m_Modifications:
+    - target: {fileID: 4584877607322914510, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
+      propertyPath: product
+      value: 19
+      objectReference: {fileID: 0}
     - target: {fileID: 7269506751144264769, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
       propertyPath: m_Name
       value: frigo_mezzo (3)
@@ -17387,7 +17507,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8465923687104112545, guid: ecfa47917fa18d34ab480760dc859910, type: 3}
       propertyPath: product
-      value: 0
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8593208450173075119, guid: ecfa47917fa18d34ab480760dc859910, type: 3}
       propertyPath: m_Name
@@ -17543,7 +17663,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8465923687104112545, guid: ecfa47917fa18d34ab480760dc859910, type: 3}
       propertyPath: product
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8593208450173075119, guid: ecfa47917fa18d34ab480760dc859910, type: 3}
       propertyPath: m_Name
@@ -17640,6 +17760,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1115925312}
     m_Modifications:
+    - target: {fileID: 4584877607322914510, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
+      propertyPath: product
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7269506751144264769, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
       propertyPath: m_Name
       value: frigo_mezzo (1)
@@ -18905,6 +19029,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 231732296}
     m_Modifications:
+    - target: {fileID: 4584877607322914510, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
+      propertyPath: product
+      value: 17
+      objectReference: {fileID: 0}
     - target: {fileID: 7269506751144264769, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
       propertyPath: m_Name
       value: frigo_mezzo (1)
@@ -19100,16 +19228,59 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scaffale Ortofrutta (07)
       objectReference: {fileID: 0}
+    - target: {fileID: 5876812522808492032, guid: 4f7c2aa3fae404644bf06297f8d26368, type: 3}
+      propertyPath: product
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3175367686190033414, guid: 4f7c2aa3fae404644bf06297f8d26368, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 686527880}
+    - targetCorrespondingSourceObject: {fileID: 3175367686190033414, guid: 4f7c2aa3fae404644bf06297f8d26368, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 686527879}
   m_SourcePrefab: {fileID: 100100000, guid: 4f7c2aa3fae404644bf06297f8d26368, type: 3}
 --- !u!4 &686527877 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2835856794065842364, guid: 4f7c2aa3fae404644bf06297f8d26368, type: 3}
   m_PrefabInstance: {fileID: 686527876}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &686527878 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3175367686190033414, guid: 4f7c2aa3fae404644bf06297f8d26368, type: 3}
+  m_PrefabInstance: {fileID: 686527876}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &686527879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 686527878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31ebba73a689ce9439cd025a8b3e3790, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numItem: 1
+  product: 4
+  itemstoremove: []
+--- !u!114 &686527880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 686527878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 968623550a91d7e47b667de59cbe2b53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NoBumptime: 5
 --- !u!1001 &688108952
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19446,6 +19617,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 995436447}
     m_Modifications:
+    - target: {fileID: 4584877607322914510, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
+      propertyPath: product
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7269506751144264769, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
       propertyPath: m_Name
       value: frigo_mezzo (2)
@@ -21062,6 +21237,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1186015997}
     m_Modifications:
+    - target: {fileID: 6011516371602260379, guid: aad734e37b13fd541b267dd73479334e, type: 3}
+      propertyPath: product
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8264941982170858392, guid: aad734e37b13fd541b267dd73479334e, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -21084,7 +21263,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8264941982170858392, guid: aad734e37b13fd541b267dd73479334e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -16.874825
+      value: -16.86
       objectReference: {fileID: 0}
     - target: {fileID: 8264941982170858392, guid: aad734e37b13fd541b267dd73479334e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -22878,6 +23057,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scaffale Ortofrutta (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5876812522808492032, guid: 4f7c2aa3fae404644bf06297f8d26368, type: 3}
+      propertyPath: product
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23753,6 +23936,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1652543385}
     m_Modifications:
+    - target: {fileID: 5555185211753892871, guid: a629f6fb2a636ea42adec448ee2a2729, type: 3}
+      propertyPath: product
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7353051617164358372, guid: a629f6fb2a636ea42adec448ee2a2729, type: 3}
       propertyPath: m_LocalScale.x
       value: -1
@@ -24148,7 +24335,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8465923687104112545, guid: ecfa47917fa18d34ab480760dc859910, type: 3}
       propertyPath: product
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8593208450173075119, guid: ecfa47917fa18d34ab480760dc859910, type: 3}
       propertyPath: m_Name
@@ -24540,6 +24727,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1115925312}
     m_Modifications:
+    - target: {fileID: 5555185211753892871, guid: a629f6fb2a636ea42adec448ee2a2729, type: 3}
+      propertyPath: product
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7353051617164358372, guid: a629f6fb2a636ea42adec448ee2a2729, type: 3}
       propertyPath: m_LocalScale.x
       value: -1
@@ -25497,6 +25688,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 263147111}
     m_Modifications:
+    - target: {fileID: 5555185211753892871, guid: a629f6fb2a636ea42adec448ee2a2729, type: 3}
+      propertyPath: product
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7353051617164358372, guid: a629f6fb2a636ea42adec448ee2a2729, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.51
@@ -26320,6 +26515,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8465923687104112545, guid: ecfa47917fa18d34ab480760dc859910, type: 3}
+      propertyPath: product
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8593208450173075119, guid: ecfa47917fa18d34ab480760dc859910, type: 3}
       propertyPath: m_Name
       value: Scaffale (3)
@@ -26468,7 +26667,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8465923687104112545, guid: ecfa47917fa18d34ab480760dc859910, type: 3}
       propertyPath: product
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8593208450173075119, guid: ecfa47917fa18d34ab480760dc859910, type: 3}
       propertyPath: m_Name
@@ -28195,7 +28394,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8465923687104112545, guid: ecfa47917fa18d34ab480760dc859910, type: 3}
       propertyPath: product
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8593208450173075119, guid: ecfa47917fa18d34ab480760dc859910, type: 3}
       propertyPath: m_Name
@@ -29048,6 +29247,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 263147111}
     m_Modifications:
+    - target: {fileID: 4584877607322914510, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
+      propertyPath: product
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7269506751144264769, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
       propertyPath: m_Name
       value: frigo_mezzo
@@ -30108,6 +30311,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1652543385}
     m_Modifications:
+    - target: {fileID: 5555185211753892871, guid: a629f6fb2a636ea42adec448ee2a2729, type: 3}
+      propertyPath: product
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7353051617164358372, guid: a629f6fb2a636ea42adec448ee2a2729, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.51
@@ -30481,6 +30688,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 263147111}
     m_Modifications:
+    - target: {fileID: 5555185211753892871, guid: a629f6fb2a636ea42adec448ee2a2729, type: 3}
+      propertyPath: product
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7353051617164358372, guid: a629f6fb2a636ea42adec448ee2a2729, type: 3}
       propertyPath: m_LocalScale.x
       value: -1
@@ -30896,6 +31107,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1115925312}
     m_Modifications:
+    - target: {fileID: 4584877607322914510, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
+      propertyPath: product
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 7269506751144264769, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
       propertyPath: m_Name
       value: frigo_mezzo (9)
@@ -32941,6 +33156,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scaffale Ortofrutta (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5876812522808492032, guid: 4f7c2aa3fae404644bf06297f8d26368, type: 3}
+      propertyPath: product
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -33036,6 +33255,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 231732296}
     m_Modifications:
+    - target: {fileID: 4584877607322914510, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
+      propertyPath: product
+      value: 17
+      objectReference: {fileID: 0}
     - target: {fileID: 7269506751144264769, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
       propertyPath: m_Name
       value: frigo_mezzo
@@ -33155,6 +33378,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1652543385}
     m_Modifications:
+    - target: {fileID: 4584877607322914510, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
+      propertyPath: product
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7269506751144264769, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
       propertyPath: m_Name
       value: frigo_mezzo (9)
@@ -33217,6 +33444,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1186015997}
     m_Modifications:
+    - target: {fileID: 6011516371602260379, guid: aad734e37b13fd541b267dd73479334e, type: 3}
+      propertyPath: product
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8264941982170858392, guid: aad734e37b13fd541b267dd73479334e, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -33239,7 +33470,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8264941982170858392, guid: aad734e37b13fd541b267dd73479334e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -16.874825
+      value: -16.86
       objectReference: {fileID: 0}
     - target: {fileID: 8264941982170858392, guid: aad734e37b13fd541b267dd73479334e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -33415,7 +33646,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8465923687104112545, guid: ecfa47917fa18d34ab480760dc859910, type: 3}
       propertyPath: product
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8593208450173075119, guid: ecfa47917fa18d34ab480760dc859910, type: 3}
       propertyPath: m_Name
@@ -33526,7 +33757,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: efdc9ef5dd46ebf428275d6502b69181, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.162
+      value: -2.377
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: efdc9ef5dd46ebf428275d6502b69181, type: 3}
       propertyPath: m_LocalPosition.y
@@ -33892,6 +34123,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 995436447}
     m_Modifications:
+    - target: {fileID: 5555185211753892871, guid: a629f6fb2a636ea42adec448ee2a2729, type: 3}
+      propertyPath: product
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7353051617164358372, guid: a629f6fb2a636ea42adec448ee2a2729, type: 3}
       propertyPath: m_LocalScale.x
       value: -1
@@ -34408,6 +34643,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 995436447}
     m_Modifications:
+    - target: {fileID: 4584877607322914510, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
+      propertyPath: product
+      value: 19
+      objectReference: {fileID: 0}
     - target: {fileID: 7269506751144264769, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
       propertyPath: m_Name
       value: frigo_mezzo (4)
@@ -34684,7 +34923,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8465923687104112545, guid: ecfa47917fa18d34ab480760dc859910, type: 3}
       propertyPath: product
-      value: 0
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8593208450173075119, guid: ecfa47917fa18d34ab480760dc859910, type: 3}
       propertyPath: m_Name
@@ -35684,7 +35923,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8465923687104112545, guid: ecfa47917fa18d34ab480760dc859910, type: 3}
       propertyPath: product
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8593208450173075119, guid: ecfa47917fa18d34ab480760dc859910, type: 3}
       propertyPath: m_Name
@@ -35863,6 +36102,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1115925312}
     m_Modifications:
+    - target: {fileID: 4584877607322914510, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
+      propertyPath: product
+      value: 19
+      objectReference: {fileID: 0}
     - target: {fileID: 7269506751144264769, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
       propertyPath: m_Name
       value: frigo_mezzo (10)
@@ -36295,6 +36538,10 @@ PrefabInstance:
     - target: {fileID: 3175367686190033414, guid: 4f7c2aa3fae404644bf06297f8d26368, type: 3}
       propertyPath: m_Name
       value: Scaffale Ortofrutta (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5876812522808492032, guid: 4f7c2aa3fae404644bf06297f8d26368, type: 3}
+      propertyPath: product
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -36974,6 +37221,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 263147111}
     m_Modifications:
+    - target: {fileID: 4584877607322914510, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
+      propertyPath: product
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7269506751144264769, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
       propertyPath: m_Name
       value: frigo_mezzo (1)
@@ -37993,6 +38244,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 263147111}
     m_Modifications:
+    - target: {fileID: 4584877607322914510, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
+      propertyPath: product
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7269506751144264769, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
       propertyPath: m_Name
       value: frigo_mezzo (3)
@@ -38050,6 +38305,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 995436447}
     m_Modifications:
+    - target: {fileID: 4584877607322914510, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
+      propertyPath: product
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7269506751144264769, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
       propertyPath: m_Name
       value: frigo_mezzo
@@ -38379,6 +38638,10 @@ PrefabInstance:
     - target: {fileID: 3175367686190033414, guid: 4f7c2aa3fae404644bf06297f8d26368, type: 3}
       propertyPath: m_Name
       value: Scaffale Ortofrutta (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5876812522808492032, guid: 4f7c2aa3fae404644bf06297f8d26368, type: 3}
+      propertyPath: product
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -40007,6 +40270,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1186015997}
     m_Modifications:
+    - target: {fileID: 6011516371602260379, guid: aad734e37b13fd541b267dd73479334e, type: 3}
+      propertyPath: product
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8264941982170858392, guid: aad734e37b13fd541b267dd73479334e, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -40099,7 +40366,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: efdc9ef5dd46ebf428275d6502b69181, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.437
+      value: -1.6520002
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: efdc9ef5dd46ebf428275d6502b69181, type: 3}
       propertyPath: m_LocalPosition.y
@@ -40217,6 +40484,10 @@ PrefabInstance:
     - target: {fileID: 3175367686190033414, guid: 4f7c2aa3fae404644bf06297f8d26368, type: 3}
       propertyPath: m_Name
       value: Scaffale Ortofrutta (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5876812522808492032, guid: 4f7c2aa3fae404644bf06297f8d26368, type: 3}
+      propertyPath: product
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -41979,6 +42250,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1652543385}
     m_Modifications:
+    - target: {fileID: 4584877607322914510, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
+      propertyPath: product
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7269506751144264769, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
       propertyPath: m_Name
       value: frigo_mezzo
@@ -43281,6 +43556,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 263147111}
     m_Modifications:
+    - target: {fileID: 4584877607322914510, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
+      propertyPath: product
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7269506751144264769, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
       propertyPath: m_Name
       value: frigo_mezzo (7)
@@ -43442,6 +43721,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 231732296}
     m_Modifications:
+    - target: {fileID: 4584877607322914510, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
+      propertyPath: product
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7269506751144264769, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
       propertyPath: m_Name
       value: frigo_mezzo (2)
@@ -43684,7 +43967,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: b587125c135769342952eb4af77e2f55, type: 2}
     - target: {fileID: 8465923687104112545, guid: ecfa47917fa18d34ab480760dc859910, type: 3}
       propertyPath: product
-      value: 0
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 8593208450173075119, guid: ecfa47917fa18d34ab480760dc859910, type: 3}
       propertyPath: m_Name
@@ -44776,6 +45059,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 995436447}
     m_Modifications:
+    - target: {fileID: 5555185211753892871, guid: a629f6fb2a636ea42adec448ee2a2729, type: 3}
+      propertyPath: product
+      value: 19
+      objectReference: {fileID: 0}
     - target: {fileID: 7353051617164358372, guid: a629f6fb2a636ea42adec448ee2a2729, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.507206
@@ -44838,6 +45125,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 231732296}
     m_Modifications:
+    - target: {fileID: 5555185211753892871, guid: a629f6fb2a636ea42adec448ee2a2729, type: 3}
+      propertyPath: product
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7353051617164358372, guid: a629f6fb2a636ea42adec448ee2a2729, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.507206
@@ -45119,6 +45410,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1115925312}
     m_Modifications:
+    - target: {fileID: 4584877607322914510, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
+      propertyPath: product
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 7269506751144264769, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
       propertyPath: m_Name
       value: frigo_mezzo
@@ -45756,6 +46051,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 263147111}
     m_Modifications:
+    - target: {fileID: 4584877607322914510, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
+      propertyPath: product
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7269506751144264769, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
       propertyPath: m_Name
       value: frigo_mezzo (2)
@@ -48665,7 +48964,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8465923687104112545, guid: ecfa47917fa18d34ab480760dc859910, type: 3}
       propertyPath: product
-      value: 0
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8593208450173075119, guid: ecfa47917fa18d34ab480760dc859910, type: 3}
       propertyPath: m_Name
@@ -48747,7 +49046,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8465923687104112545, guid: ecfa47917fa18d34ab480760dc859910, type: 3}
       propertyPath: product
-      value: 0
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8593208450173075119, guid: ecfa47917fa18d34ab480760dc859910, type: 3}
       propertyPath: m_Name
@@ -49052,6 +49351,10 @@ PrefabInstance:
     - target: {fileID: 3175367686190033414, guid: 4f7c2aa3fae404644bf06297f8d26368, type: 3}
       propertyPath: m_Name
       value: Scaffale Ortofrutta (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5876812522808492032, guid: 4f7c2aa3fae404644bf06297f8d26368, type: 3}
+      propertyPath: product
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -49503,7 +49806,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8465923687104112545, guid: ecfa47917fa18d34ab480760dc859910, type: 3}
       propertyPath: product
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8593208450173075119, guid: ecfa47917fa18d34ab480760dc859910, type: 3}
       propertyPath: m_Name
@@ -50592,6 +50895,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 263147111}
     m_Modifications:
+    - target: {fileID: 4584877607322914510, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
+      propertyPath: product
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7269506751144264769, guid: d525b97ddbbbd5e458f186d0406ff136, type: 3}
       propertyPath: m_Name
       value: frigo_mezzo (9)
@@ -52203,7 +52510,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8465923687104112545, guid: ecfa47917fa18d34ab480760dc859910, type: 3}
       propertyPath: product
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8593208450173075119, guid: ecfa47917fa18d34ab480760dc859910, type: 3}
       propertyPath: m_Name
@@ -52286,7 +52593,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8465923687104112545, guid: ecfa47917fa18d34ab480760dc859910, type: 3}
       propertyPath: product
-      value: 18
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8593208450173075119, guid: ecfa47917fa18d34ab480760dc859910, type: 3}
       propertyPath: m_Name
@@ -52663,6 +52970,10 @@ PrefabInstance:
     - target: {fileID: 3175367686190033414, guid: 4f7c2aa3fae404644bf06297f8d26368, type: 3}
       propertyPath: m_Name
       value: Scaffale Ortofrutta (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5876812522808492032, guid: 4f7c2aa3fae404644bf06297f8d26368, type: 3}
+      propertyPath: product
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -53135,6 +53446,10 @@ PrefabInstance:
     - target: {fileID: 3175367686190033414, guid: 4f7c2aa3fae404644bf06297f8d26368, type: 3}
       propertyPath: m_Name
       value: Scaffale Ortofrutta (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5876812522808492032, guid: 4f7c2aa3fae404644bf06297f8d26368, type: 3}
+      propertyPath: product
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -53952,6 +54267,10 @@ PrefabInstance:
     - target: {fileID: 3175367686190033414, guid: 4f7c2aa3fae404644bf06297f8d26368, type: 3}
       propertyPath: m_Name
       value: Scaffale Ortofrutta (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5876812522808492032, guid: 4f7c2aa3fae404644bf06297f8d26368, type: 3}
+      propertyPath: product
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -55309,7 +55628,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: efdc9ef5dd46ebf428275d6502b69181, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.122
+      value: -1.3370001
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: efdc9ef5dd46ebf428275d6502b69181, type: 3}
       propertyPath: m_LocalPosition.y
