@@ -69,6 +69,9 @@
 		<property name="maxVoices">
 			<value>1</value>
 		</property>
+		<property name="triggerCooldown">
+			<value>1000</value>
+		</property>
 	</object>
 	<object class="MarkerTrack" id="{d963eadd-f7d3-42ea-b153-8518b70eb5d3}" />
 	<object class="GroupTrack" id="{dd5be51b-0408-45c0-bf29-074092852d4f}">

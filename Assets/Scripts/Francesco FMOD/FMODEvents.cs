@@ -53,7 +53,7 @@ public class FMODEvents : MonoBehaviour
         //settaggio parametri dell'FMOD event music a seconda della scena: "MusicTransition" 0 = intro menu, 1 = start game, 2 = ending music, 3 = gameover stinger.
         music.getParameterByName("MusicTransition", out float val);
 
-        if (scene.name == "FMODTest" && val != 1)
+        if (scene.name == "Livello con Mesh Copiato" && val != 1)
         {
             music.setParameterByName("MusicTransition", 1);
             //FIltro OFF nel menu
