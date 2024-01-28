@@ -9,13 +9,46 @@ public class SpawnPointManager : MonoBehaviour
     public static SpawnPointManager instance;
     static bool[] occupied= new bool[2];
     PlayerInputManager spawner;
-    public List<Camera> allcams= new List<Camera>();    
+    public List<Camera> allcams= new List<Camera>();
+    public GameObject canvas,caricamento;
     private void Awake()
     {
         if (instance == null)
             instance = this;
         spawner = FindAnyObjectByType<PlayerInputManager>();
         occupied = new bool[2];
+    }
+
+    private void Start()
+    {
+        Spawn();
+    }
+    int id = 0;
+
+    public void Spawn()
+    {
+        //GameObject pl= Instantiate(spawner.playerPrefab);
+        StartCoroutine(GoSpawn());
+    }
+    IEnumerator GoSpawn()
+    {
+        var allGamepads = Gamepad.all;
+
+        foreach (var gamepad in allGamepads)
+        {
+            yield return null;
+            spawner.JoinPlayer(id, id, null, gamepad);
+            id++;
+            yield return new WaitUntil(() => Gamemanager.CanBuy == false);
+        }
+        if (id < 2)
+        {
+            if(id==0)
+                spawner.JoinPlayer(id, id-1, null, Keyboard.current);
+            else
+                spawner.JoinPlayer(id, id, null, Keyboard.current);
+            yield return null;
+        }
     }
     public void Spawner_onPlayerJoined(PlayerInput obj)
     {
@@ -51,6 +84,8 @@ public class SpawnPointManager : MonoBehaviour
         }
         obj.GetComponentInParent<PlayerWallet>().granmas[i].SetActive(true) ;
         Gamemanager.CanBuy = true;
+        caricamento.SetActive(false);
+        canvas.SetActive(true);
     }
 
 }

@@ -2688,6 +2688,14 @@ PrefabInstance:
     - target: {fileID: 5333422546506909922, guid: 8612e7242c749db418e1174181989676, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 1835074866}
+    - target: {fileID: 5333422546506909922, guid: 8612e7242c749db418e1174181989676, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Quit
+      objectReference: {fileID: 0}
+    - target: {fileID: 5333422546506909922, guid: 8612e7242c749db418e1174181989676, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5333422546506909923, guid: 8612e7242c749db418e1174181989676, type: 3}
       propertyPath: m_AnchorMax.y
@@ -3162,6 +3170,14 @@ PrefabInstance:
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 6858316159943525101, guid: 8612e7242c749db418e1174181989676, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6858316159943525101, guid: 8612e7242c749db418e1174181989676, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7563692605789355841, guid: 8612e7242c749db418e1174181989676, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -3181,6 +3197,8 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 5333422545373171439, guid: 8612e7242c749db418e1174181989676, type: 3}
     - {fileID: 5336076100272203573, guid: 8612e7242c749db418e1174181989676, type: 3}
+    - {fileID: 5648547090746892151, guid: 8612e7242c749db418e1174181989676, type: 3}
+    - {fileID: 6858316159943525101, guid: 8612e7242c749db418e1174181989676, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 5333422545373171424, guid: 8612e7242c749db418e1174181989676, type: 3}
@@ -3405,6 +3423,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Timetext: {fileID: 545940906}
+  death: 20
   winPanel: {fileID: 1561628355}
   losePanel: {fileID: 2135574371}
   panelTimer: {fileID: 56433470}

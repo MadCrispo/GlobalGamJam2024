@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerWallet : MonoBehaviour
 {
-    public List<Products> listaspesa=new List<Products>();
+    public static List<Products> listaspesa;
     public Dictionary<Products,int> listaProdotti=new Dictionary<Products,int>();
     public List<Products> Prodotti=new List<Products>();
     public List<int> Prezzi=new List<int>();
@@ -31,6 +31,23 @@ public class PlayerWallet : MonoBehaviour
         for (int x = 0; x < Prodotti.Count; x++)
         {
             listaProdotti.Add(Prodotti[x], Prezzi[x]);
+        }
+
+        if (listaspesa == null)
+        {
+            int x = Random.Range(0,Prodotti.Count);
+            listaspesa = new List<Products>();
+            while (true)
+            {
+                if (listaspesa.Count == 6)
+                    return;
+                if ((Products)x != Products.noSpecial || (Products)x != Products.nutella)
+                {
+                    listaspesa.Add((Products)x);
+                }
+                x = Random.Range(0, Prodotti.Count);
+            }
+
         }
 
     }

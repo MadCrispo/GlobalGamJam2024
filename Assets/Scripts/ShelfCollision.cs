@@ -51,7 +51,7 @@ public class ShelfCollision : MonoBehaviour
             numItem--;
             if (wallet.IsNextProduct(product))
             {
-                if (wallet.id == wallet.listaspesa.Count)
+                if (wallet.id == PlayerWallet.listaspesa.Count)
                 {
                     Gamemanager.instance.WinGame.Invoke();
                 }

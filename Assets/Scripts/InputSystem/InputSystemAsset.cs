@@ -335,7 +335,7 @@ public partial class @InputSystemAsset: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""87bbcb13-0525-4e3b-b04f-92003f18af17"",
-                    ""path"": ""<Keyboard>/f"",
+                    ""path"": ""<Keyboard>/anyKey"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -346,7 +346,7 @@ public partial class @InputSystemAsset: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""8f9232cc-365b-4fa6-933b-b1bcb4c3673e"",
-                    ""path"": ""<Gamepad>/buttonSouth"",
+                    ""path"": ""<Keyboard>/anyKey"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
