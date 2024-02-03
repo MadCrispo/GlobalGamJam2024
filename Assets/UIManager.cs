@@ -5,6 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
+    private void Start()
+    {
+//        FMODEvents.instance.MusicToMenu();
+    }
     public void LoadScene(int Level)
     {
         Time.timeScale = 1;

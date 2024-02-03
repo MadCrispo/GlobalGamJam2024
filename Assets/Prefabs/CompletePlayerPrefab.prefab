@@ -448,7 +448,7 @@ MonoBehaviour:
   - {fileID: 438023777846788878}
   - {fileID: 266806712059299765}
   Messggio: {fileID: 6334510827036700052}
-  Prodottis: 
+  ProdPresenti: 0100000007000000130000000f0000000e000000090000001200000004000000110000000600000012000000
 --- !u!114 &5501453051986231278
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -507,19 +507,7 @@ MonoBehaviour:
     m_ActionId: d1c316ee-1649-44d0-8c0e-22e6b090b2fd
     m_ActionName: PlayerInputs/PlayerMovement[/Keyboard/w,/Keyboard/a,/Keyboard/s,/Keyboard/d,/XInputControllerWindows/leftStick]
   - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 4049601512676129432}
-        m_TargetAssemblyTypeName: ItemEffects, Assembly-CSharp
-        m_MethodName: ApplyItemEffect
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 109342627433488245}
-          m_ObjectArgumentAssemblyTypeName: InventoryItems, Assembly-CSharp
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_ActionId: ed817106-8be4-4574-8fee-c4ab18f2b84c
     m_ActionName: PlayerInputs/Punch[/XInputControllerWindows/buttonWest,/Keyboard/q]
   - m_PersistentCalls:
@@ -1870,6 +1858,18 @@ PrefabInstance:
       propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9152036876585738998, guid: 57ae7f3a256c1844f99c6758274b0aa6, type: 3}
+      propertyPath: Prefabs.Array.size
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152036876585738998, guid: 57ae7f3a256c1844f99c6758274b0aa6, type: 3}
+      propertyPath: Prefabs.Array.data[11]
+      value: 
+      objectReference: {fileID: 919132149155446097, guid: 539d580b2eee1fb4fbed43c346679b8b, type: 3}
+    - target: {fileID: 9152036876585738998, guid: 57ae7f3a256c1844f99c6758274b0aa6, type: 3}
+      propertyPath: Prefabs.Array.data[20]
+      value: 
+      objectReference: {fileID: 919132149155446097, guid: 82f91ad28b6528e4b98e6f3d590c6f9e, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

@@ -49,18 +49,18 @@ public class FMODEvents : MonoBehaviour
     {
         //Gestione parametri diverse scene
         //reference temporanea alla scena attuale
-        scene = SceneManager.GetActiveScene();
-        //settaggio parametri dell'FMOD event music a seconda della scena: "MusicTransition" 0 = intro menu, 1 = start game, 2 = ending music, 3 = gameover stinger.
-        music.getParameterByName("MusicTransition", out float val);
+        //scene = SceneManager.GetActiveScene();
+        ////settaggio parametri dell'FMOD event music a seconda della scena: "MusicTransition" 0 = intro menu, 1 = start game, 2 = ending music, 3 = gameover stinger.
+        //music.getParameterByName("MusicTransition", out float val);
+        //
+        //if (scene.name == "Livello con Mesh 1" && val != 1)
+        //{
+        //    music.setParameterByName("MusicTransition", 1);
+        //    //FIltro OFF nel menu
+        //    //music.setParameterByName("PauseFilter", 1);
+        //}
 
-        if (scene.name == "Livello con Mesh Copiato" && val != 1)
-        {
-            music.setParameterByName("MusicTransition", 1);
-            //FIltro OFF nel menu
-            //music.setParameterByName("PauseFilter", 1);
-        }
-
-        //else if (scene.name == "MenuIniziale" && val != 0)
+        //if (scene.name == "Menu" && val != 0)
         //{
         //    music.setParameterByName("MusicTransition", 0);
         //}

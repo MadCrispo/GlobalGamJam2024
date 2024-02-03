@@ -20,7 +20,7 @@ public class PlayerWallet : MonoBehaviour
     public int id = 0;
     public GameObject[] granmas;
     public TextMeshProUGUI Messggio;
-    public List<Products> Prodottis;
+    public List<Products> ProdPresenti= new List<Products>();
     private void Awake()
     {
         if (allplayers == null)
@@ -44,10 +44,11 @@ public class PlayerWallet : MonoBehaviour
             {
                 if (listaspesa.Count == 6)
                     return;
-                if ((Products)x != Products.noSpecial && !listaspesa.Contains((Products)x))
+                Products prod = (Products)x;
+                if (prod != Products.noSpecial && !listaspesa.Contains(prod) && ProdPresenti.Contains(prod))
                 {
-                    listaspesa.Add((Products)x);
-                    Debug.Log(((Products)x).ToString());
+                    listaspesa.Add(prod);
+                    Debug.Log(prod.ToString());
                 }
                 x = Random.Range(0, Prodotti.Count);
             }
@@ -76,6 +77,9 @@ public class PlayerWallet : MonoBehaviour
     }
     public bool IsNextProduct(Products p)
     {
+        if (id >= listaspesa.Count)
+            return false;
+
         if (listaspesa[id] == p)
         {
             id++;
