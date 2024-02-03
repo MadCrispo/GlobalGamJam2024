@@ -54,6 +54,7 @@ public class ShelfCollision : MonoBehaviour
                 if (wallet.id == PlayerWallet.listaspesa.Count)
                 {
                     int x = PlayerWallet.allplayers.IndexOf(wallet)+1;
+                    PlayerWallet.allplayers = null;
                     Gamemanager.instance.who.text = "Player" + x + " has won";
                     Gamemanager.instance.WinGame.Invoke();
                 }
@@ -66,7 +67,10 @@ public class ShelfCollision : MonoBehaviour
             //else
             //    wallet.inventory.AddItem(product);
             if (!wallet.CanIBuyIt(product))
+            {
+                PlayerWallet.allplayers = null;
                 Gamemanager.instance.LoseGame.Invoke();
+            }
 
 
             wallet.AddToCart(product);

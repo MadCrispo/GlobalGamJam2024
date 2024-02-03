@@ -33,7 +33,7 @@ public class SpawnPointManager : MonoBehaviour
     IEnumerator GoSpawn()
     {
         var allGamepads = Gamepad.all;
-
+        id = 0;
         foreach (var gamepad in allGamepads)
         {
             yield return null;
